@@ -1,0 +1,87 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath, amsfonts, amssymb}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{geometry}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{lmodern}
+
+
+
+
+% Márgenes
+\geometry{left=3cm,right=2.5cm,top=3cm,bottom=3cm}
+
+% Definición de colores sobrios
+\definecolor{titlecolor}{RGB}{0, 51, 102}
+\definecolor{sectioncolor}{RGB}{0, 102, 153}
+
+% Encabezado y pie de página con fancyhdr
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\includegraphics[height=0.8cm]{src/images/logo/logounsch.png}}
+\fancyhead[C]{\textcolor{titlecolor}{Universidad Nacional de San Cristóbal de Huamanga}}
+\fancyhead[R]{\textcolor{titlecolor}{\dycourse}}
+\fancyfoot[C]{\thepage}
+
+% Personalización títulos secciones
+\titleformat{\section}
+  {\color{sectioncolor}\normalfont\Large\bfseries}
+  {\thesection}{1em}{}
+
+% Comandos variables para carátula
+\newcommand{\university}[1]{\gdef\dyuniversity{#1}}
+\newcommand{\faculty}[1]{\gdef\dyfaculty{#1}}
+\newcommand{\dept}[1]{\gdef\dydept{#1}}
+\newcommand{\course}[1]{\gdef\dycourse{#1}}
+\newcommand{\titleproject}[1]{\gdef\dytitle{#1}}
+\newcommand{\tema}[1]{\gdef\dytema{#1}}
+\newcommand{\teacher}[1]{\gdef\dyteacher{#1}}
+\newcommand{\copyrightyear}[1]{\gdef\dycopyrightyear{#1}}
+
+% Valores variables
+\copyrightyear{2025}
+\university{Universidad Nacional de San Cristóbal de Huamanga}
+\faculty{Facultad de Ingeniería de Minas, Geología y Civil}
+\dept{Escuela Profesional de Ingeniería de Sistemas}
+\course{CÁLCULO (MA-282)}
+\titleproject{Trabajo de Cálculo N°1}
+\tema{Resolución de ejercicios de Cálculo Diferencial}
+\teacher{Dr. Miyagi}
+
+\begin{document}
+\thispagestyle{empty}
+\begin{center}
+    {\large\scshape \dyuniversity}\\[4pt]
+    {\large\scshape \dyfaculty}\\[4pt]
+    {\large\scshape \dydept}\\[1cm]
+    \includegraphics[width=5cm]{src/images/logo/logounsch.png}\\[1cm]
+    {\Large\bfseries \dycourse}\\[0.5cm]
+    {\Large\bfseries \dytitle}\\[0.5cm]
+    {\large \dytema}\\[2cm]
+    \begin{tabular}{rl}
+        \textbf{Docente:} & \dyteacher \\
+        \textbf{Grupo:} & B \\
+        \textbf{Integrantes:} & RAMOS QUINTANILLA, Robert Briceño [27210104] \\
+        & VARGAS HUAMAN, Jhoel Alexander [27210105]
+    \end{tabular}\\[3cm]
+    {\large Ayacucho - Perú}\\[4pt]
+    {\large \dycopyrightyear}
+\end{center}
+\newpage
+\setcounter{page}{1}
+
+\section{Ejercicio 1}
+\textbf{Calcular la derivada de la función:}
+\[
+f(x) = \frac{x^2}{2}
+\]
+\textbf{Para los siguientes puntos:}
+\[
+x_1 = 1, \quad x_2 = 2, \quad x_3 = 3, \quad x_4 = 4
+\]
+\end{document}
