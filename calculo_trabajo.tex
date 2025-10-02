@@ -9,24 +9,35 @@
 \usepackage{hyperref}
 \usepackage{titlesec}
 \usepackage{lmodern}
-
-
-
+\usepackage{multicol}
 
 % Márgenes
 \geometry{left=3cm,right=2.5cm,top=3cm,bottom=3cm}
 
+% Ajuste de la altura del encabezado para fancyhdr
+\setlength{\headheight}{27.11232pt}
+
 % Definición de colores sobrios
 \definecolor{titlecolor}{RGB}{0, 51, 102}
-\definecolor{sectioncolor}{RGB}{0, 102, 153}
+\definecolor{sectioncolor}{RGB}{0, 0, 0}
+\definecolor{Rojo}{RGB}{230, 0, 0}
 
 % Encabezado y pie de página con fancyhdr
 \pagestyle{fancy}
 \fancyhf{}
 \fancyhead[L]{\includegraphics[height=0.8cm]{src/images/logo/logounsch.png}}
-\fancyhead[C]{\textcolor{titlecolor}{Universidad Nacional de San Cristóbal de Huamanga}}
 \fancyhead[R]{\textcolor{titlecolor}{\dycourse}}
-\fancyfoot[C]{\thepage}
+
+% Pie de página
+\fancyfoot[C]{\textcolor{titlecolor}{Universidad Nacional de San Cristóbal de Huamanga}}
+\fancyfoot[R]{\thepage}
+
+% Línea en el pie de página
+\renewcommand{\footrulewidth}{0.4pt}
+
+% Configuración de columnas
+\setlength{\columnsep}{1cm} % Espacio entre columnas
+% \setlength{\columnseprule}{0.4pt} % Descomentar para línea divisoria
 
 % Personalización títulos secciones
 \titleformat{\section}
@@ -72,16 +83,18 @@
     {\large Ayacucho - Perú}\\[4pt]
     {\large \dycopyrightyear}
 \end{center}
+
 \newpage
 \setcounter{page}{1}
 
+\begin{multicols}{2}
+  
+\section{Introducción}
+Aquí va tu contenido en dos columnas. El texto se distribuirá automáticamente entre ambas columnas.
+
 \section{Ejercicio 1}
-\textbf{Calcular la derivada de la función:}
-\[
-f(x) = \frac{x^2}{2}
-\]
-\textbf{Para los siguientes puntos:}
-\[
-x_1 = 1, \quad x_2 = 2, \quad x_3 = 3, \quad x_4 = 4
-\]
+Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+
+\end{multicols}
+
 \end{document}

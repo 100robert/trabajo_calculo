@@ -123,6 +123,8 @@ INPUT C:\Program Files\MiKTeX\tex\latex\titlesec\titlesec.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\titlesec\titlesec.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\lm\lmodern.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\lm\lmodern.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\multicol.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\multicol.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\lm\ot1lmr.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\lm\ot1lmr.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\lm\ot1lmr.fd
@@ -203,7 +205,6 @@ INPUT .\src\images\logo\logounsch.png
 INPUT .\src\images\logo\logounsch.png
 INPUT .\src\images\logo\logounsch.png
 INPUT .\src\images\logo\logounsch.png
-INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
 INPUT calculo_trabajo.aux
 INPUT .\calculo_trabajo.out
 INPUT .\calculo_trabajo.out
@@ -211,9 +212,5 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmcsc10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmcsc10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr8.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr8.pfb
