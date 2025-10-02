@@ -41,9 +41,11 @@
 
 % Personalización títulos secciones
 \titleformat{\section}
-  {\color{sectioncolor}\normalfont\Large\bfseries}
+  {\color{sectioncolor}\normalfont\large\bfseries}
   {\thesection}{1em}{}
-
+\titleformat{\subsection}
+  {\normalfont\normalsize\bfseries}
+  {\thesubsection}{1em}{}
 % Comandos variables para carátula
 \newcommand{\university}[1]{\gdef\dyuniversity{#1}}
 \newcommand{\faculty}[1]{\gdef\dyfaculty{#1}}
@@ -61,7 +63,7 @@
 \dept{Escuela Profesional de Ingeniería de Sistemas}
 \course{CÁLCULO (MA-282)}
 \titleproject{Trabajo de Cálculo N°1}
-\tema{Resolución de ejercicios de Cálculo Diferencial}
+\tema{Resolución de ejercicios de Cálculo Diferencial, Ecuaciones Diferenciables Ordinarias de variable Separable.}
 \teacher{Dr. Miyagi}
 
 \begin{document}
@@ -89,11 +91,48 @@
 
 \begin{multicols}{2}
   
-\section{Introducción}
-Aquí va tu contenido en dos columnas. El texto se distribuirá automáticamente entre ambas columnas.
 
-\section{Ejercicio 1}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+\section*{Ejercicio 1}
+\[\tg x \sin^2 y \, dx + \cos^2 xC \tg y \, dy = 0\]
+\subsection*{Solución}
+
+\section*{Ejercicio 2}
+\[xy\prime -y=y^3\]
+
+\section*{Ejercicio 3}
+\[\sqrt{1+x^3}\frac{dy}{dx}=x^2y+x^2 \]
+
+\section*{Ejercicio 4}
+\[e^{2x-y}dx+e^{y-2x}dy=0\]
+
+\section*{Ejercicio 5}
+\[(x^2y-x^2+y-1)dx+(xy+2y-3y-6)dy=0\]
+
+\section*{Ejercicio 6}
+\[e^{x+y}senx \, dx+(2y+1)e^{-y^2}dy=0\]
+
+
+\section*{Ejercicio 7}
+\[3e^x\tg y \, dx+(1-e^x)\sec^2 y \, dy=0\]
+
+rpta: \[\tg y=C(1-e^x)^3\]
+
+\section*{Ejercicio 8}
+
+\[e^y(\frac{dy}{dx}+1)=1\]
+
+rpta: \[\frac{dy}{dx}=\frac{1}{e^y-1}\]
+\section*{Ejercicio 9}
+
+\[y\prime=1+x+y^2+xy^2\]
+
+rpta: \[\arctan-x-\frac{x^2}{2}=C\]
+
+\section*{Ejercicio 10}
+
+\[y- xy\prime=a(1+x^2y)\]
+
+rpta: \[y=\frac{a+cx}{1+ax}\]
 
 \end{multicols}
 

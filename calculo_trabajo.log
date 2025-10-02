@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.1)  1 OCT 2025 20:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.1)  2 OCT 2025 00:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -420,7 +420,7 @@ Package: multicol 2025/05/25 v2.0a multicolumn formatting (FMi)
 \mc@col@check@num=\count322
 \g__mc_curr_col_int=\count323
 )
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 67.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 69.
  (C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
@@ -434,26 +434,26 @@ Package babel Info: 'spanish' activates 'spanish' shorthands.
 )
 \openout1 = `calculo_trabajo.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 67.
-LaTeX Font Info:    ... okay on input line 67.
-LaTeX Info: Redefining \. on input line 67.
-LaTeX Info: Redefining \% on input line 67.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Info: Redefining \. on input line 69.
+LaTeX Info: Redefining \% on input line 69.
  (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count325
@@ -507,43 +507,43 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 67.
+Package hyperref Info: Link coloring OFF on input line 69.
 (calculo_trabajo.out) (calculo_trabajo.out)
 \@outlinefile=\write3
 \openout3 = `calculo_trabajo.out'.
 
-<src/images/logo/logounsch.png, id=11, 236.082pt x 316.7835pt>
+<src/images/logo/logounsch.png, id=3, 236.082pt x 316.7835pt>
 File: src/images/logo/logounsch.png Graphic file (type png)
 <use src/images/logo/logounsch.png>
-Package pdftex.def Info: src/images/logo/logounsch.png  used on input line 73.
+Package pdftex.def Info: src/images/logo/logounsch.png  used on input line 75.
 (pdftex.def)             Requested size: 142.26378pt x 190.89328pt.
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 75.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 77.
  (C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 77.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 79.
  (C:\Program Files\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 77.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 79.
  (C:\Program Files\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 77.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 79.
  (C:\Program Files\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 77.
+(Font)              <12> on input line 79.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 77.
+(Font)              <8> on input line 79.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 77.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 77.
+(Font)              <6> on input line 79.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 79.
  (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 77.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 79.
  (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -551,6 +551,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [1
 
 {C:/Users/USUARIO/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rmsc.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc} <./src/images/logo/logounsch.png>]
+Overfull \hbox (7.30286pt too wide) detected at line 109
+\OT1/lmr/m/n/12 (\OML/lmm/m/it/12 x[]y \OMS/lmsy/m/n/12 ^^@ \OML/lmm/m/it/12 x[] \OT1/lmr/m/n/12 + \OML/lmm/m/it/12 y \OMS/lmsy/m/n/12 ^^@ \OT1/lmr/m/n/12 1)\OML/lmm/m/it/12 dx \OT1/lmr/m/n/12 + (\OML/lmm/m/it/12 xy \OT1/lmr/m/n/12 + 2\OML/lmm/m/it/12 y \OMS/lmsy/m/n/12 ^^@ \OT1/lmr/m/n/12 3\OML/lmm/m/it/12 y \OMS/lmsy/m/n/12 ^^@ \OT1/lmr/m/n/12 6)\OML/lmm/m/it/12 dy \OT1/lmr/m/n/12 = 0
+ []
+
+
 
 
 
@@ -560,14 +565,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 File: src/images/logo/logounsch.png Graphic file (type png)
 <use src/images/logo/logounsch.png>
-Package pdftex.def Info: src/images/logo/logounsch.png  used on input line 100.
+Package pdftex.def Info: src/images/logo/logounsch.png  used on input line 139.
 (pdftex.def)             Requested size: 16.9633pt x 22.76228pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.100 \end{document}
-                     [1] (calculo_trabajo.aux
+l.139 \end{document}
+                     [1{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}] (calculo_trabajo.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -576,20 +581,20 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
 Package rerunfilecheck Info: File `calculo_trabajo.out' has not changed.
-(rerunfilecheck)             Checksum: 001322150AAF0789F88CD0737CB2C9B1;207.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 12986 strings out of 468130
- 199854 string characters out of 5440694
- 636783 words of memory out of 5000000
- 41427 multiletter control sequences out of 15000+600000
- 654310 words of font info for 63 fonts, out of 8000000 for 9000
+ 12981 strings out of 468130
+ 199861 string characters out of 5440694
+ 645793 words of memory out of 5000000
+ 41422 multiletter control sequences out of 15000+600000
+ 657256 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,15n,79p,290b,550s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb>
-Output written on calculo_trabajo.pdf (2 pages, 720726 bytes).
+ 75i,15n,79p,290b,473s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
+Output written on calculo_trabajo.pdf (2 pages, 782635 bytes).
 PDF statistics:
- 47 PDF objects out of 1000 (max. 8388607)
- 4 named destinations out of 1000 (max. 500000)
- 22 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 70 PDF objects out of 1000 (max. 8388607)
+ 2 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

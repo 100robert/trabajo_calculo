@@ -147,10 +147,10 @@ INPUT .\calculo_trabajo.out
 INPUT .\calculo_trabajo.out
 INPUT calculo_trabajo.out
 INPUT calculo_trabajo.out
-OUTPUT calculo_trabajo.pdf
 INPUT .\calculo_trabajo.out
 INPUT .\calculo_trabajo.out
 OUTPUT calculo_trabajo.out
+OUTPUT calculo_trabajo.pdf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\rm-lmr12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\rm-lmcsc10.tfm
 INPUT .\src\images\logo\logounsch.png
@@ -201,10 +201,13 @@ INPUT C:\Users\USUARIO\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-rmsc.enc
 INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
 INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-ts1.enc
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\rm-lmbx12.tfm
 INPUT .\src\images\logo\logounsch.png
 INPUT .\src\images\logo\logounsch.png
 INPUT .\src\images\logo\logounsch.png
 INPUT .\src\images\logo\logounsch.png
+INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
+INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
 INPUT calculo_trabajo.aux
 INPUT .\calculo_trabajo.out
 INPUT .\calculo_trabajo.out
@@ -212,5 +215,17 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmcsc10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmcsc10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr6.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr6.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmsy8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmsy8.pfb
