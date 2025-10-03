@@ -208,6 +208,11 @@ INPUT .\src\images\logo\logounsch.png
 INPUT .\src\images\logo\logounsch.png
 INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
 INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
+INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-mathex.enc
+INPUT .\src\images\logo\logounsch.png
+INPUT .\src\images\logo\logounsch.png
+INPUT .\src\images\logo\logounsch.png
+INPUT .\src\images\logo\logounsch.png
 INPUT calculo_trabajo.aux
 INPUT .\calculo_trabajo.out
 INPUT .\calculo_trabajo.out
@@ -215,8 +220,12 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmcsc10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmcsc10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmex10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmex10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi6.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi6.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr12.pfb

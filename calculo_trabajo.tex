@@ -36,7 +36,7 @@
 \renewcommand{\footrulewidth}{0.4pt}
 
 % Configuración de columnas
-\setlength{\columnsep}{1cm} % Espacio entre columnas
+%\setlength{\columnsep}{1cm} % Espacio entre columnas
 % \setlength{\columnseprule}{0.4pt} % Descomentar para línea divisoria
 
 % Personalización títulos secciones
@@ -112,21 +112,101 @@
 \[e^{x+y}senx \, dx+(2y+1)e^{-y^2}dy=0\]
 
 
-\section*{Ejercicio 7}
-\[3e^x\tg y \, dx+(1-e^x)\sec^2 y \, dy=0\]
+\section*{Ejercicio 7} \[3e^x\tg y \, dx+(1-e^x)\sec^2 y \, dy=0\] 
+\subsection*{Solución} 
+\[3e^x\tg y \, dx+(1-e^x)\sec^2 y \, dy=0\] 
 
-rpta: \[\tg y=C(1-e^x)^3\]
+\[3e^x\tg y\,dx=-(1-e^x)\sec^2 y\,dy\] 
+
+\[\frac{3e^x}{1-e^x}=-\frac{\sec^2 y\,dy}{\tg y\,dx}\] 
+
+\[\frac{3e^x}{1-e^x}dx=-\frac{\sec^2 y}{\tg y}dy\] 
+
+\[3\int\frac{e^x}{1-e^x}dx=-\int\frac{\sec^2 y}{\tg y}dy\]  
+
+se conose a la funcion $\tg$ y se puede utilizar la regla de la integral de tangente \[\frac{d}{dx}(\tg)=\sec^2x\]
+\[\frac{d}{dx}(\tg)=sec^2x\] 
+sustituyendo los Valores \[u=1-e^x\] \[du=-e^x\,dx\] 
+
+\[-du=e^xdx\]
+
+Reemplazando en la integral 
+
+\[3\int\frac{e^x}{1-e^x}dx=\int\frac{\sec^2 y}{\tg y}dy\] 
+
+\[3\int\frac{-du}{u}=-\int\frac{d(\tg y)}{\tg y}dy\] 
+
+\[-3\ln(u)=-\ln(\tg y)+C\] \[\ln(1-e)^3=\ln(\tg y)+C\] 
+
+\[\tg y=C(1-e^x)^3\] 
+
+\textbf{rpta: $\tg y=C(1-e^x)^3$}
 
 \section*{Ejercicio 8}
-
+\subsection*{Solución}
 \[e^y(\frac{dy}{dx}+1)=1\]
 
-rpta: \[\frac{dy}{dx}=\frac{1}{e^y-1}\]
+\[e^y\left(\frac{dy +dx}{dx}\right)=1\]
+
+\[e^ydy+e^ydx=dx\]
+
+\[e^ydy=dx-e^ydx\]
+
+\[e^ydy=dx(1-e^y)\]
+
+\[\frac{e^y}{1-e^y}dy=dx\]
+
+\[\int\frac{e^y}{1-e^y}dy=\int dx\]
+
+sustituyendo los Valores \[u=1-e^y\] \[du=-e^y\,dy\] 
+
+\[\int\frac{e^y}{1-e^y}dy=\int\frac{du}{u}\]
+
+\[\ln(u)=\ln(1-e^y)+C\]
+
+\[\ln(1-e^y)=\ln(u)+C\]
+
+\[e^y=u+C\]
+rpta: $\frac{dy}{dx}=\frac{1}{e^y-1}$
 \section*{Ejercicio 9}
 
 \[y\prime=1+x+y^2+xy^2\]
 
-rpta: \[\arctan-x-\frac{x^2}{2}=C\]
+\subsection*{Solución}
+\[y\prime=1+x+y^2+xy^2\]
+
+\[y\prime=(1+x)(1+y^2)\]
+
+\[\frac{dy}{dx}=(1+x)(1+y^2)\]
+
+\[\frac{dy}{1+y^2}=(1+x)dx\]
+
+\[\int\frac{dy}{1+y^2}=\int dx + \int(x)dx\]
+
+
+
+sabemos que 
+\begin{equation*}
+\int\frac{du}{a^2+u^2}=\frac{1}{a}\tan^{-1}\left(\frac{u}{a}\right)
+\end{equation*}
+
+es lo mismo tener $1=1^2 $
+
+\textbf{reemplazando}
+\[\int\frac{dy}{1^2+y^2}=\int dx + \int(x)dx\]
+
+\textbf{usando la regla de la integral de tangente}
+\[\int\frac{dy}{1^2+y^2}=\frac{1}{1}\tan^{-1}\left(\frac{y}{1}\right) = \tan^{-1}y\]
+
+\[\tan^{-1}y=x+\frac{x^2}{2}+C\]
+
+\textbf{O tambien se puede escribir como}
+\[\tan^{-1}y - x - \frac{x^2}{2}=C\]
+\textbf{se puede escribir como}
+\[\arctan y - x - \frac{x^2}{2}=C\]
+
+
+rpta: $\arctan y-x-\frac{x^2}{2}=C$
 
 \section*{Ejercicio 10}
 

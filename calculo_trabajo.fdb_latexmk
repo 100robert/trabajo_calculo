@@ -1,5 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1759382236.03091 "e:/informes/trabajo_calculo/calculo_trabajo.tex" "calculo_trabajo.pdf" "calculo_trabajo" 1759382237.88378 0
+["pdflatex"] 1759450596.2189 "e:/informes/trabajo_calculo/calculo_trabajo.tex" "calculo_trabajo.pdf" "calculo_trabajo" 1759450598.09258 0
+  "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc" 1256929440 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc" 1256929440 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc" 1256929440 2840 216e6e45ad352e2456e1149f28885bee ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc" 1256929440 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -26,7 +27,9 @@
   "C:/Program Files/MiKTeX/fonts/tfm/public/lm/ts1-lmbx12.tfm" 1256929440 1600 fec060bf714b3c52e53c0e0df6ae170d ""
   "C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb" 1256929440 116908 9a7a12d1e4df280ea0ab4aad83cdef88 ""
   "C:/Program Files/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb" 1256929440 116427 4909e80035dae5d5a4ec2b5ddd9649dd ""
+  "C:/Program Files/MiKTeX/fonts/type1/public/lm/lmex10.pfb" 1256929440 23055 2e5b42921de910eaa97b85df04ca4891 ""
   "C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi12.pfb" 1256929440 30696 3da7e46ecf5615eedebd9f27dab4d9d7 ""
+  "C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi6.pfb" 1256929440 31113 04b711c9a4c7f8cb4ed784c6fc4cc1c5 ""
   "C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi8.pfb" 1256929440 30635 833ec815d446ec453a4913fc26d24cbc ""
   "C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb" 1256929440 113634 9384aebdf26f9881e046a4b5574566db ""
   "C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr6.pfb" 1256929440 123394 992f5e87d698d9e94717394c62580ea6 ""
@@ -102,10 +105,10 @@
   "C:/Program Files/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/USUARIO/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1759347960 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/USUARIO/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1759347979 13276905 d49d8f777bd1168c5982faa74709c489 ""
-  "calculo_trabajo.aux" 1759382237 362 fb9ef3066c03621f25b72007a52bd41a "pdflatex"
-  "calculo_trabajo.out" 1759382236 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "calculo_trabajo.tex" 1759382235 3887 b63db8f8a4a15d8e9ec9b5d2c6b7c66d ""
-  "e:/informes/trabajo_calculo/calculo_trabajo.tex" 1759382235 3887 b63db8f8a4a15d8e9ec9b5d2c6b7c66d ""
+  "calculo_trabajo.aux" 1759450597 362 1377299d57d70137621effed54f36145 "pdflatex"
+  "calculo_trabajo.out" 1759450596 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "calculo_trabajo.tex" 1759450595 5771 2fef72a5ca7887a32120215d5f516a99 ""
+  "e:/informes/trabajo_calculo/calculo_trabajo.tex" 1759450595 5771 2fef72a5ca7887a32120215d5f516a99 ""
   "src/images/logo/logounsch.png" 1758543239 894533 50d834a562caa7c88a72229851287fcf ""
   (generated)
   "calculo_trabajo.aux"
