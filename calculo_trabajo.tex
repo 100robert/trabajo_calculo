@@ -99,20 +99,20 @@ Dividimos ambos lados de la ecuación por $\cos^{2}x \, \sin^{2}y$ (suponiendo $
 \[
 \frac{\tan x \, \sin^{2}y}{\cos^{2}x \, \sin^{2}y} \, dx 
 + 
-\frac{\cos^{2}x \, \cot y}{\cos^{2}x \, \sin^{2}y} \, dy = 0,
+\frac{\cos^{2}x \, \cot y}{\cos^{2}x \, \sin^{2}y} \, dy = 0
 \]
 \[
-\frac{\tan x}{\cos^{2}x} \, dx + \frac{\cot y}{\sin^{2}y} \, dy = 0.
+\frac{\tan x}{\cos^{2}x} \, dx + \frac{\cot y}{\sin^{2}y} \, dy = 0
 \]
 
 Expresando en términos de senos y cosenos:
 \[
-\frac{\sin x}{\cos^{3}x} \, dx + \frac{\cos y}{\sin^{3}y} \, dy = 0.
+\frac{\sin x}{\cos^{3}x} \, dx + \frac{\cos y}{\sin^{3}y} \, dy = 0
 \]
 
 Integramos ambos términos:
 \[
-\int \frac{\sin x}{\cos^{3}x} \, dx + \int \frac{\cos y}{\sin^{3}y} \, dy = C.
+\int \frac{\sin x}{\cos^{3}x} \, dx + \int \frac{\cos y}{\sin^{3}y} \, dy = C
 \]
 
 \noindent
@@ -124,7 +124,7 @@ Para la primera integral, sea $u = \cos x \Rightarrow du = -\sin x \, dx$:
 \]
 \[
 = \frac{1}{2}u^{-2}
-= \frac{1}{2}\sec^{2}x.
+= \frac{1}{2}\sec^{2}x
 \]
 
 \noindent
@@ -133,7 +133,7 @@ Para la segunda integral, sea $v = \sin y \Rightarrow dv = \cos y \, dy$:
 \int \frac{\cos y}{\sin^{3}y} \, dy
 = \int v^{-3} \, dv
 = \frac{v^{-2}}{-2}
-= -\frac{1}{2}\csc^{2}y.
+= -\frac{1}{2}\csc^{2}y
 \]
 
 Sustituyendo ambos resultados en la ecuación integral:
@@ -143,7 +143,7 @@ Sustituyendo ambos resultados en la ecuación integral:
 
 Multiplicamos por 2:
 \[
-\sec^{2}x - \csc^{2}y = C'.
+\sec^{2}x - \csc^{2}y = C'
 \]
 
 Utilizando las identidades trigonométricas:
@@ -157,25 +157,145 @@ Utilizando las identidades trigonométricas:
 \]
 \[
 \quad \Rightarrow \quad
-\tan^{2}x - \cot^{2}y = C'.
+\tan^{2}x - \cot^{2}y = C'
 \]
 \[
- - \cot^{2}y = - \tan^{2}x + C'.
+ - \cot^{2}y = - \tan^{2}x + C'
 \]
 
 Múltiplicamos por -1:
 \[
-\cot^{2}y = \tan^{2}x - C'.
+\cot^{2}y = \tan^{2}x - C'
 \]
 Renombramos la constante:
 \[
-C' = C.
+C' = C
 \]
 
 \textbf{rpta: $\cot^{2}y = \tan^{2}x + C$}
 
 \section*{Ejercicio 2}
 \[xy\prime -y=y^3\]
+\subsection*{Solución}
+Partimos de la ecuación diferencial:
+\[
+xy' - y = y^3
+\]
+
+Despejamos la derivada:
+\[
+xy' = y + y^3
+\]
+\[
+y' = \frac{y + y^3}{x} = \frac{y}{x} + \frac{y^3}{x}
+\]
+
+Reconocemos que es una ecuación de Bernoulli de la forma:
+\[
+y' + P(x)y = Q(x)y^n
+\]
+donde 
+\[
+P(x) = -\frac{1}{x}, \quad Q(x) = \frac{1}{x}, \quad n = 3
+\]
+
+\noindent
+Aplicamos el cambio de variable correspondiente a Bernoulli:
+\[
+z = y^{1-n} = y^{-2}
+\]
+Derivando:
+\[
+\frac{dz}{dx} = -2y^{-3}y' 
+\quad \Rightarrow \quad 
+y' = -\frac{1}{2}y^3\frac{dz}{dx}
+\]
+
+Sustituimos en la ecuación original:
+\[
+x\left(-\frac{1}{2}y^3\frac{dz}{dx}\right) - y = y^3
+\]
+Simplificamos:
+\[
+-\frac{1}{2}xy^3\frac{dz}{dx} = y + y^3
+\]
+Dividimos ambos lados entre \( y^3 \) (suponiendo \( y \neq 0 \)):
+\[
+-\frac{1}{2}x\frac{dz}{dx} = \frac{y}{y^3} + 1 = y^{-2} + 1
+\]
+
+Sustituyendo \( y^{-2} = z \):
+\[
+-\frac{1}{2}x\frac{dz}{dx} = z + 1
+\]
+
+Despejamos la derivada:
+\[
+\frac{dz}{dx} + \frac{2}{x}z = -\frac{2}{x}
+\]
+
+\noindent
+Esta es una ecuación lineal de primer orden en \( z \).  
+El factor integrante es:
+\[
+\mu(x) = e^{\int \frac{2}{x}dx} = e^{2\ln|x|} = x^2
+\]
+
+Multiplicamos toda la ecuación por \( x^2 \):
+\[
+x^2\frac{dz}{dx} + 2xz = -2x
+\]
+
+El lado izquierdo corresponde a una derivada de producto:
+\[
+\frac{d}{dx}(x^2z) = -2x
+\]
+
+Integramos ambos lados:
+\[
+\int \frac{d}{dx}(x^2z)\,dx = \int -2x\,dx
+\]
+\[
+x^2z = -x^2 + C
+\]
+
+Despejamos \( z \):
+\[
+z = -1 + \frac{C}{x^2}
+\]
+
+Volvemos a la variable original \( z = y^{-2} \):
+\[
+y^{-2} = -1 + \frac{C}{x^2}
+\]
+
+Simplificamos, factorizamos y sacamos la raiz cuadrada:
+\[
+\frac{1}{y^2} = \frac{C - x^2}{x^2}
+\]
+\[
+x^2 = y^2(C - x^2)
+\]
+\[
+x^2 = y^2C - y^2x^2
+\]
+\[
+x^2 + y^2x^2= y^2C 
+\]
+\[
+x^2(1 + y^2)= y^2C 
+\]
+\[
+x^2 = \pm \sqrt{\frac{y^2C}{1 + y^2}}
+\]
+\[
+x^2 = \pm \sqrt{\frac{y^2C}{1 + y^2}}
+\]
+\[
+x = \pm \frac{yC}{\sqrt{1 + y^2}}
+\]
+
+\textbf{rpta: $x = \pm \frac{yC}{\sqrt{1 + y^2}}$}
 
 \section*{Ejercicio 3}
 \[\sqrt{1+x^3}\frac{dy}{dx}=x^2y+x^2 \]

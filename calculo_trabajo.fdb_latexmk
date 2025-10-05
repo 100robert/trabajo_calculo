@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1759621380.37482 "c:/Users/User/Documents/Documentos Roy/UNSCH/Serie 200 II/Cálculo II/trabajo_calculo/calculo_trabajo.tex" "calculo_trabajo.pdf" "calculo_trabajo" 1759621381.74329 0
+["pdflatex"] 1759629077.05908 "c:/Users/User/Documents/Documentos Roy/UNSCH/Serie 200 II/Cálculo II/trabajo_calculo/calculo_trabajo.tex" "calculo_trabajo.pdf" "calculo_trabajo" 1759629079.78055 0
   "C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1759620153 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/User/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1757257944 24224573 a9998c6f2da20cb1f87e71a98ac03f84 ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc" 1256929440 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
@@ -110,10 +110,10 @@
   "C:/Users/User/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1700599895 32515 51caec75eda9c8890135f12f1a4eddc3 ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/User/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "c:/Users/User/Documents/Documentos Roy/UNSCH/Serie 200 II/Cálculo II/trabajo_calculo/calculo_trabajo.tex" 1759621379 7395 f7dbf7a08ea8d46c28b972e86838d538 ""
-  "calculo_trabajo.aux" 1759621381 324 8c89658258ebb9cb00729b91a6ed6abb "pdflatex"
-  "calculo_trabajo.out" 1759621380 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "calculo_trabajo.tex" 1759621379 7395 f7dbf7a08ea8d46c28b972e86838d538 ""
+  "c:/Users/User/Documents/Documentos Roy/UNSCH/Serie 200 II/Cálculo II/trabajo_calculo/calculo_trabajo.tex" 1759629075 9431 12109eae1ec2b141c5cb6c140aaf5eba ""
+  "calculo_trabajo.aux" 1759629079 324 f55d44e7bc09da6ba59b1fa7f21a0cba "pdflatex"
+  "calculo_trabajo.out" 1759629078 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "calculo_trabajo.tex" 1759629075 9431 12109eae1ec2b141c5cb6c140aaf5eba ""
   "src/images/logo/logounsch.png" 1759617808 894533 50d834a562caa7c88a72229851287fcf ""
   (generated)
   "calculo_trabajo.aux"

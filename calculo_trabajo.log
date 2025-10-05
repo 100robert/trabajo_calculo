@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.7)  4 OCT 2025 18:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.9.7)  4 OCT 2025 20:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -545,35 +545,35 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {C:/Users/User/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rmsc.enc}{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc} <./src/images/logo/logounsch.png>]
-Overfull \hbox (2.38794pt too wide) detected at line 137
-[] [] \OML/lmm/m/it/12 dy \OT1/lmr/m/n/12 = [] \OML/lmm/m/it/12 v[] dv \OT1/lmr/m/n/12 = [] = \OMS/lmsy/m/n/12 ^^@[] [][] \OML/lmm/m/it/12 y:
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 149--150
 []\OT1/lmr/m/n/12 Utilizando las iden-ti-da-des tri-go-
  []
 
 File: src/images/logo/logounsch.png Graphic file (type png)
 <use src/images/logo/logounsch.png>
-Package pdftex.def Info: src/images/logo/logounsch.png  used on input line 199.
+Package pdftex.def Info: src/images/logo/logounsch.png  used on input line 230.
 (pdftex.def)             Requested size: 16.9633pt x 22.76228pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.199 ...{1-e^x}=-\frac{\sec^2 y\,dy}{\tg y\,dx}\]
-                                                   [1{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}]
+l.230 \]
+         [1{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}]
 File: src/images/logo/logounsch.png Graphic file (type png)
 <use src/images/logo/logounsch.png>
-Package pdftex.def Info: src/images/logo/logounsch.png  used on input line 258.
+Package pdftex.def Info: src/images/logo/logounsch.png  used on input line 317.
 (pdftex.def)             Requested size: 16.9633pt x 22.76228pt.
  [2]
 File: src/images/logo/logounsch.png Graphic file (type png)
 <use src/images/logo/logounsch.png>
-Package pdftex.def Info: src/images/logo/logounsch.png  used on input line 297.
+Package pdftex.def Info: src/images/logo/logounsch.png  used on input line 378.
 (pdftex.def)             Requested size: 16.9633pt x 22.76228pt.
- [3] (calculo_trabajo.aux
+ [3]
+File: src/images/logo/logounsch.png Graphic file (type png)
+<use src/images/logo/logounsch.png>
+Package pdftex.def Info: src/images/logo/logounsch.png  used on input line 417.
+(pdftex.def)             Requested size: 16.9633pt x 22.76228pt.
+ [4] (calculo_trabajo.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -585,17 +585,17 @@ Package rerunfilecheck Info: File `calculo_trabajo.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 12922 strings out of 474486
- 203634 string characters out of 5744228
- 1943542 words of memory out of 5000000
+ 12923 strings out of 474486
+ 203640 string characters out of 5744228
+ 1944542 words of memory out of 5000000
  35016 multiletter control sequences out of 15000+600000
  588500 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,16n,79p,350b,603s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/User/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy8.pfb>
-Output written on calculo_trabajo.pdf (4 pages, 801820 bytes).
+Output written on calculo_trabajo.pdf (5 pages, 810105 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 4 named destinations out of 1000 (max. 500000)
+ 93 PDF objects out of 1000 (max. 8388607)
+ 5 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
