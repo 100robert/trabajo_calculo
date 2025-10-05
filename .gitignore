@@ -1,13 +1,9 @@
-# Archivos temporales de LaTeX
+# Ignorar archivos temporales de LaTeX
 *.aux
+*.fdb_latexmk
+*.fls
 *.log
 *.out
-*.toc
-*.fls
-*.fdb_latexmk
 *.synctex.gz
-*.lof
-*.lot
-
-# Archivos compilados
+*.toc
 *.pdf
