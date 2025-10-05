@@ -80,7 +80,8 @@
         \textbf{Docente:} & \dyteacher \\
         \textbf{Grupo:} & B \\
         \textbf{Integrantes:} & RAMOS QUINTANILLA, Robert Briceño [27210104] \\
-        & VARGAS HUAMAN, Jhoel Alexander [27210105]
+        & VARGAS HUAMAN, Jhoel Alexander [27210105] \\
+        & RUIZ RIVEROS, Roy Jhony [27202123] 
     \end{tabular}\\[3cm]
     {\large Ayacucho - Perú}\\[4pt]
     {\large \dycopyrightyear}
@@ -299,6 +300,66 @@ x = \pm \frac{yC}{\sqrt{1 + y^2}}
 
 \section*{Ejercicio 3}
 \[\sqrt{1+x^3}\frac{dy}{dx}=x^2y+x^2 \]
+
+\subsection*{Solución}
+
+
+Comenzamos observando que la ecuación puede escribirse como:
+\[
+\sqrt{1+x^{3}}\frac{dy}{dx} = x^{2}(y+1).
+\]
+
+Dividimos ambos lados entre $\sqrt{1+x^{3}}$ (suponiendo $\sqrt{1+x^{3}} \neq 0$):
+\[
+\frac{dy}{dx} = \frac{x^{2}}{\sqrt{1+x^{3}}}(y+1).
+\]
+
+\noindent
+Esta es una \textbf{ecuación diferencial separable}, ya que las variables $x$ y $y$ pueden colocarse en lados distintos de la igualdad.  
+Procedemos a separar las variables:
+\[
+\frac{dy}{y+1} = \frac{x^{2}}{\sqrt{1+x^{3}}}\,dx.
+\]
+
+\subsubsection*{Integración de ambos miembros}
+
+Integramos en ambos lados:
+\[
+\int \frac{dy}{y+1} = \int \frac{x^{2}}{\sqrt{1+x^{3}}}\,dx.
+\]
+
+\noindent
+Para el miembro izquierdo:
+\[
+\int \frac{dy}{y+1} = \ln|y+1| + C_{1}.
+\]
+
+\noindent
+Para el miembro derecho, hacemos la sustitución:
+\[
+u = 1 + x^{3} \quad \Rightarrow \quad du = 3x^{2}\,dx \quad \Rightarrow \quad x^{2}\,dx = \frac{1}{3}\,du.
+\]
+
+Sustituyendo en la integral:
+\[
+\int \frac{x^{2}}{\sqrt{1+x^{3}}}\,dx 
+= \frac{1}{3} \int u^{-1/2}\,du 
+= \frac{1}{3} \cdot 2u^{1/2}
+= \frac{2}{3}\sqrt{1+x^{3}} + C_{2}.
+\]
+
+\subsubsection*{Igualando los resultados}
+Combinando ambas integrales (y absorbiendo las constantes en una sola $C$):
+\[
+\ln|y+1| = \frac{2}{3}\sqrt{1+x^{3}} + C.
+\]
+
+Multiplicamos toda la ecuación por $3$ para simplificar:
+\[
+3\ln|y+1| = 2\sqrt{1+x^{3}} + C'.
+\]
+
+\textbf{rpta: $\,2\sqrt{1+x^{3}} = 3\ln(y+1) + C\,$}
 
 \section*{Ejercicio 4}
 \[e^{2x-y}dx+e^{y-2x}dy=0\]
