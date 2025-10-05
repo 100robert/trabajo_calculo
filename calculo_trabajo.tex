@@ -178,199 +178,307 @@ C' = C
 \section*{Ejercicio 2}
 \[xy\prime -y=y^3\]
 \subsection*{Solución}
-Partimos de la ecuación diferencial:
-\[
-xy' - y = y^3
-\]
+Planteamos la ecuación en forma de derivada:
+\[x\frac{dy}{dx} - y = y^3\]
 
 Despejamos la derivada:
-\[
-xy' = y + y^3
-\]
-\[
-y' = \frac{y + y^3}{x} = \frac{y}{x} + \frac{y^3}{x}
-\]
+\[x\frac{dy}{dx} = y + y^3 = y(1 + y^2)\]
 
-Reconocemos que es una ecuación de Bernoulli de la forma:
-\[
-y' + P(x)y = Q(x)y^n
-\]
-donde 
-\[
-P(x) = -\frac{1}{x}, \quad Q(x) = \frac{1}{x}, \quad n = 3
-\]
+Es una ecuación diferencial \textbf{separable}
+\[\frac{dy}{dx} = \frac{y(1 + y^2)}{x}\]
 
-\noindent
-Aplicamos el cambio de variable correspondiente a Bernoulli:
-\[
-z = y^{1-n} = y^{-2}
-\]
-Derivando:
-\[
-\frac{dz}{dx} = -2y^{-3}y' 
-\quad \Rightarrow \quad 
-y' = -\frac{1}{2}y^3\frac{dz}{dx}
-\]
+Separamos las variables:
+\[\frac{dy}{y(1 + y^2)} = \frac{dx}{x}\]
 
-Sustituimos en la ecuación original:
-\[
-x\left(-\frac{1}{2}y^3\frac{dz}{dx}\right) - y = y^3
-\]
-Simplificamos:
-\[
--\frac{1}{2}xy^3\frac{dz}{dx} = y + y^3
-\]
-Dividimos ambos lados entre \( y^3 \) (suponiendo \( y \neq 0 \)):
-\[
--\frac{1}{2}x\frac{dz}{dx} = \frac{y}{y^3} + 1 = y^{-2} + 1
-\]
-
-Sustituyendo \( y^{-2} = z \):
-\[
--\frac{1}{2}x\frac{dz}{dx} = z + 1
-\]
-
-Despejamos la derivada:
-\[
-\frac{dz}{dx} + \frac{2}{x}z = -\frac{2}{x}
-\]
-
-\noindent
-Esta es una ecuación lineal de primer orden en \( z \).  
-El factor integrante es:
-\[
-\mu(x) = e^{\int \frac{2}{x}dx} = e^{2\ln|x|} = x^2
-\]
-
-Multiplicamos toda la ecuación por \( x^2 \):
-\[
-x^2\frac{dz}{dx} + 2xz = -2x
-\]
-
-El lado izquierdo corresponde a una derivada de producto:
-\[
-\frac{d}{dx}(x^2z) = -2x
-\]
+Descomponemos la fracción en \(y\):
+\[\frac{1}{y(1 + y^2)} = \frac{1}{y} - \frac{y}{1 + y^2}\]
+ya que 
+\[\frac{1}{y} - \frac{y}{1 + y^2} = \frac{1 + y^2 - y^2}{y(1 + y^2)} = \frac{1}{y(1 + y^2)}.\]
 
 Integramos ambos lados:
 \[
-\int \frac{d}{dx}(x^2z)\,dx = \int -2x\,dx
-\]
-\[
-x^2z = -x^2 + C
+\int\left(\frac{1}{y} - \frac{y}{1 + y^2}\right)dy = \int \frac{dx}{x}
 \]
 
-Despejamos \( z \):
+Calculamos las primitivas:
 \[
-z = -1 + \frac{C}{x^2}
+\int \frac{1}{y}\,dy = \ln|y|, \quad 
+\]
+\[
+\int \frac{y}{1 + y^2}\,dy = \frac{1}{2}\ln(1 + y^2)
+\]
+(donde se usó la sustitución \(u = 1 + y^2 \Rightarrow du = 2y\,dy\)).
+
+Por tanto:
+\[
+\ln|y| - \frac{1}{2}\ln(1 + y^2) = \ln|x| + C
 \]
 
-Volvemos a la variable original \( z = y^{-2} \):
+Combinando logaritmos:
 \[
-y^{-2} = -1 + \frac{C}{x^2}
+\ln\left(\frac{|y|}{\sqrt{1 + y^2}}\right) = \ln|x| + C
 \]
 
-Simplificamos, factorizamos y sacamos la raiz cuadrada:
+Exponenciando y absorbiendo constantes:
 \[
-\frac{1}{y^2} = \frac{C - x^2}{x^2}
+\frac{|y|}{\sqrt{1 + y^2}} = C_1|x| \quad \Rightarrow \quad \frac{y}{\sqrt{1 + y^2}} = Cx
 \]
 \[
-x^2 = y^2(C - x^2)
-\]
-\[
-x^2 = y^2C - y^2x^2
-\]
-\[
-x^2 + y^2x^2= y^2C 
-\]
-\[
-x^2(1 + y^2)= y^2C 
-\]
-\[
-x^2 = \pm \sqrt{\frac{y^2C}{1 + y^2}}
-\]
-\[
-x^2 = \pm \sqrt{\frac{y^2C}{1 + y^2}}
-\]
-\[
-x = \pm \frac{yC}{\sqrt{1 + y^2}}
+x = \frac{yC}{\sqrt{1 + y^2}}
 \]
 
-\textbf{rpta: $x = \pm \frac{yC}{\sqrt{1 + y^2}}$}
+\textbf{rpta: $x = \frac{yC}{\sqrt{1 + y^2}}$}
 
+\columnbreak
 \section*{Ejercicio 3}
 \[\sqrt{1+x^3}\frac{dy}{dx}=x^2y+x^2 \]
 
 \subsection*{Solución}
 
+Planteamos la ecuación en forma de derivada:
+\[\sqrt{1+x^3}\frac{dy}{dx}=x^2(y+1)\]
 
-Comenzamos observando que la ecuación puede escribirse como:
+Despejamos la derivada y separamos variables:
+\[\frac{dy}{y+1}=\frac{x^2}{\sqrt{1+x^3}}\,dx\]
+
+Integramos ambos lados:
 \[
-\sqrt{1+x^{3}}\frac{dy}{dx} = x^{2}(y+1).
+\int\frac{1}{y+1}\,dy=\int\frac{x^2}{\sqrt{1+x^3}}\,dx
 \]
 
-Dividimos ambos lados entre $\sqrt{1+x^{3}}$ (suponiendo $\sqrt{1+x^{3}} \neq 0$):
+Para la integral de la derecha usamos la sustitución
+\[u=1+x^3,\qquad du=3x^2\,dx\quad\Rightarrow\quad x^2\,dx=\frac{1}{3}\,du\]
+
+Reemplazando:
 \[
-\frac{dy}{dx} = \frac{x^{2}}{\sqrt{1+x^{3}}}(y+1).
+\int\frac{1}{y+1}\,dy=\int\frac{1}{3}u^{-1/2}\,du
 \]
 
-\noindent
-Esta es una \textbf{ecuación diferencial separable}, ya que las variables $x$ y $y$ pueden colocarse en lados distintos de la igualdad.  
-Procedemos a separar las variables:
+Calculamos las primitivas:
 \[
-\frac{dy}{y+1} = \frac{x^{2}}{\sqrt{1+x^{3}}}\,dx.
+\int\frac{1}{y+1}\,dy=\ln|y+1|,\qquad
+\]
+\[
+\int\frac{1}{3}u^{-1/2}\,du=\frac{1}{3}\cdot\frac{u^{1/2}}{1/2}=\frac{2}{3}\sqrt{u}
 \]
 
-\subsubsection*{Integración de ambos miembros}
-
-Integramos en ambos lados:
+Volviendo a la variable \(x\):
 \[
-\int \frac{dy}{y+1} = \int \frac{x^{2}}{\sqrt{1+x^{3}}}\,dx.
-\]
-
-\noindent
-Para el miembro izquierdo:
-\[
-\int \frac{dy}{y+1} = \ln|y+1| + C_{1}.
-\]
-
-\noindent
-Para el miembro derecho, hacemos la sustitución:
-\[
-u = 1 + x^{3} \quad \Rightarrow \quad du = 3x^{2}\,dx \quad \Rightarrow \quad x^{2}\,dx = \frac{1}{3}\,du.
-\]
-
-Sustituyendo en la integral:
-\[
-\int \frac{x^{2}}{\sqrt{1+x^{3}}}\,dx 
-= \frac{1}{3} \int u^{-1/2}\,du 
-= \frac{1}{3} \cdot 2u^{1/2}
-= \frac{2}{3}\sqrt{1+x^{3}} + C_{2}.
-\]
-
-\subsubsection*{Igualando los resultados}
-Combinando ambas integrales (y absorbiendo las constantes en una sola $C$):
-\[
-\ln|y+1| = \frac{2}{3}\sqrt{1+x^{3}} + C.
+\ln|y+1| = \frac{2}{3}\sqrt{1+x^{3}} + C
 \]
 
 Multiplicamos toda la ecuación por $3$ para simplificar:
 \[
-3\ln|y+1| = 2\sqrt{1+x^{3}} + C'.
+3\ln|y+1| = 2\sqrt{1+x^{3}} + C'
 \]
 
 \textbf{rpta: $\,2\sqrt{1+x^{3}} = 3\ln(y+1) + C\,$}
 
+\columnbreak
 \section*{Ejercicio 4}
 \[e^{2x-y}dx+e^{y-2x}dy=0\]
 
+\subsection*{Solución}
+
+Dada la ecuación
+\[
+e^{2x-y}\,dx+e^{y-2x}\,dy=0,
+\]
+multiplicamos toda la ecuación por \(e^{2x+y}\) para simplificar los exponentes:
+
+\[
+e^{2x-y}\cdot e^{2x+y}\,dx + e^{y-2x}\cdot e^{2x+y}\,dy = 0.
+\]
+
+Usando la propiedad de exponencial \(e^{a}e^{b}=e^{a+b}\) obtenemos:
+\[
+e^{(2x-y)+(2x+y)}\,dx + e^{(y-2x)+(2x+y)}\,dy = 0,
+\]
+es decir
+\[
+e^{4x}\,dx + e^{2y}\,dy = 0.
+\]
+
+Ahora la ecuación es claramente separable:
+\[
+e^{2y}\,dy = -\,e^{4x}\,dx.
+\]
+
+Integramos ambos lados:
+\[
+\int e^{2y}\,dy = -\int e^{4x}\,dx.
+\]
+
+Calculamos las primitivas (usando \(\int e^{ay}\,dy = \frac{1}{a}e^{ay}\)):
+\[
+\frac{1}{2}e^{2y} = -\frac{1}{4}e^{4x} + C,
+\]
+multiplicamos por 4 a toda la ecuación:
+\[
+2e^{2y} + e^{4x} = C_1
+\]
+
+\textbf{rpta: $2e^{2y} + e^{4x} = C$}
+
+\columnbreak
 \section*{Ejercicio 5}
-\[(x^2y-x^2+y-1)dx+(xy+2y-3y-6)dy=0\]
+\[(x^2y-x^2+y-1)dx+(xy+2x-3y-6)dy=0\]
+
+\subsection*{Solución}
+
+Primero factorizamos los grupos que aparecen en los coeficientes:
+\[
+x^2y-x^2+y-1=(y-1)(x^2+1),
+\]
+\[
+\qquad
+xy+2x-3y-6=(y+2)(x-3)
+\]
+Luego la ecuación queda
+\[
+(y-1)(x^2+1)\,dx+(y+2)(x-3)\,dy=0
+\]
+
+Despejamos \(\dfrac{dy}{dx}\):
+\[
+(y+2)(x-3)\frac{dy}{dx}=-(y-1)(x^2+1)
+\]
+\[
+\quad\Longrightarrow\quad
+\frac{dy}{dx}=-\frac{x^2+1}{x-3}\cdot\frac{y-1}{y+2}
+\]
+
+Observamos que la ecuación es \textbf{separable}. Separamos variables:
+\[
+\frac{y+2}{y-1}\,dy=-\frac{x^2+1}{x-3}\,dx
+\]
+
+Integramos ambos lados:
+\[
+\int\frac{y+2}{y-1}\,dy=-\int\frac{x^2+1}{x-3}\,dx
+\]
+
+En la integral de la izquierda descomponemos la fracción:
+\[
+\frac{y+2}{y-1}=\frac{(y-1)+3}{y-1}=1+\frac{3}{y-1},
+\]
+\[
+\int\frac{y+2}{y-1}\,dy=\int\left(1+\frac{3}{y-1}\right)dy
+= y+3\ln|y-1|
+\]
+
+En la integral de la derecha hacemos división de polinomios:
+\[
+\frac{x^2+1}{x-3}=x+3+\frac{10}{x-3},
+\]
+porque \((x-3)(x+3)=x^2-9\) y \(x^2+1=(x^2-9)+10\). Entonces
+\[
+-\int\frac{x^2+1}{x-3}\,dx
+=-\int\left(x+3+\frac{10}{x-3}\right)dx
+\]
+\[
+=-\left(\frac{x^2}{2}+3x+10\ln|x-3|\right)
+\]
+
+Igualando las primitivas y añadiendo la constante de integración \(C\):
+\[
+y+3\ln|y-1|
+\]
+\[ = -\left(\frac{x^2}{2}+3x+10\ln|x-3|\right)+C
+\]
+
+Reordenando convenientemente obtenemos la solución implícita:
+\[
+\;y+3\ln|y-1|+\frac{x^2}{2}+3x+10\ln|x-3|=C\
+\]
+podemos reestructurar la respuesta de esta forma:
+\[
+\;\ln(y-1)^3+\frac{x^2}{2}+3x+y+\ln(x-3)^{10}=C\
+\]
+
+\textbf{rpta: } \(\;\ln(y-1)^3+\frac{x^2}{2}+3x+y+\ln(x-3)^{10}=C\)
 
 \section*{Ejercicio 6}
 \[e^{x+y}senx \, dx+(2y+1)e^{-y^2}dy=0\]
 
+\subsection*{Solución}
 
+Dividimos toda la ecuación por \(e^y\) para separar las variables:
+\[
+e^{x}\sin x\,dx+(2y+1)e^{-y^2-y}\,dy=0
+\]
+
+\[
+e^{x}\sin x\,dx=-(2y+1)e^{-y^2-y}\,dy
+\]
+
+La ecuación es \textbf{separable}. Integramos ambos miembros:
+\[
+\int e^{x}\sin x\,dx = -\int (2y+1)e^{-y^2-y}\,dy
+\]
+
+Calculamos la integral respecto a \(x\). Sea
+\[
+I=\int e^{x}\sin x\,dx
+\]
+Usamos integración por partes dos veces:
+
+1. Con \(u=\sin x,\ dv=e^x dx\) \(\Rightarrow\) \(du=\cos x\,dx,\ v=e^x\):
+\[
+I=e^x\sin x-\int e^x\cos x\,dx
+\]
+
+2. Para \(J=\int e^x\cos x\,dx\) hacemos partes con \(u=\cos x,\ dv=e^x dx\) \(\Rightarrow\) \(du=-\sin x\,dx,\ v=e^x\):
+\[
+J=e^x\cos x+\int e^x\sin x\,dx = e^x\cos x + I
+\]
+
+Sustituyendo \(J\) en \(I\):
+\[
+I = e^x\sin x - (e^x\cos x + I) \quad\Rightarrow\quad 2I = e^x(\sin x-\cos x)
+\]
+Por tanto
+\[
+\; \int e^{x}\sin x\,dx = I = \frac{e^x}{2}(\sin x-\cos x)\; 
+\]
+
+Ahora calculamos la integral respecto a \(y\):
+\[
+\int (2y+1)e^{-y^2-y}\,dy
+\]
+Hacemos la sustitución
+\[
+u=-y^2-y \quad\Rightarrow\quad du=-(2y+1)\,dy 
+\]
+\[\quad\Rightarrow\quad (2y+1)\,dy=-du
+\]
+Entonces
+\[
+\int (2y+1)e^{-y^2-y}\,dy = \int -e^{u}\,du = -e^{u} + C
+\] 
+\[
+= -e^{-y^2-y}+C
+\]
+
+Volviendo a la igualdad de integrales:
+\[
+\frac{e^x}{2}(\sin x-\cos x) = -\big(-e^{-y^2-y}\big) + C
+= e^{-y^2-y} + C
+\]
+
+Reordenando tenemos:
+\[
+\;\frac{e^x}{2}(\sin x-\cos x)-e^{-y^2-y}=C\;
+\]
+
+Multiplicamos por 2 a toda la ecuación:
+\[
+\;{e^x}(\sin x-\cos x)-2e^{-y^2-y}=C\;
+\]
+
+\textbf{rpta: } \(\;{e^x}(\sin x-\cos x)-2e^{-y^2-y}=C\)
+
+\columnbreak
 \section*{Ejercicio 7} \[3e^x\tg y \, dx+(1-e^x)\sec^2 y \, dy=0\] 
 \subsection*{Solución} 
 \[3e^x\tg y \, dx+(1-e^x)\sec^2 y \, dy=0\] 
