@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1759450596.2189 "e:/informes/trabajo_calculo/calculo_trabajo.tex" "calculo_trabajo.pdf" "calculo_trabajo" 1759450598.09258 0
+["pdflatex"] 1759628463.34684 "e:/informes/trabajo_calculo/calculo_trabajo.tex" "calculo_trabajo.pdf" "calculo_trabajo" 1759628466.7566 0
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc" 1256929440 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc" 1256929440 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc" 1256929440 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -105,10 +105,10 @@
   "C:/Program Files/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/USUARIO/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1759347960 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/USUARIO/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1759347979 13276905 d49d8f777bd1168c5982faa74709c489 ""
-  "calculo_trabajo.aux" 1759450597 362 1377299d57d70137621effed54f36145 "pdflatex"
-  "calculo_trabajo.out" 1759450596 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "calculo_trabajo.tex" 1759450595 5771 2fef72a5ca7887a32120215d5f516a99 ""
-  "e:/informes/trabajo_calculo/calculo_trabajo.tex" 1759450595 5771 2fef72a5ca7887a32120215d5f516a99 ""
+  "calculo_trabajo.aux" 1759628466 362 1377299d57d70137621effed54f36145 "pdflatex"
+  "calculo_trabajo.out" 1759628464 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "calculo_trabajo.tex" 1759628459 5766 f9c9a6b68f2d4e4026c1011e3b789a3e ""
+  "e:/informes/trabajo_calculo/calculo_trabajo.tex" 1759628459 5766 f9c9a6b68f2d4e4026c1011e3b789a3e ""
   "src/images/logo/logounsch.png" 1758543239 894533 50d834a562caa7c88a72229851287fcf ""
   (generated)
   "calculo_trabajo.aux"
