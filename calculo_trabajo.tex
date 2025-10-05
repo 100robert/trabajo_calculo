@@ -93,8 +93,86 @@
   
 
 \section*{Ejercicio 1}
-\[\tg x \sin^2 y \, dx + \cos^2 xC \tg y \, dy = 0\]
+\[\tan x \sin^2 y \, dx + \cos^2 x \cot y \, dy = 0\]
 \subsection*{Solución}
+Dividimos ambos lados de la ecuación por $\cos^{2}x \, \sin^{2}y$ (suponiendo $\cos x \neq 0$ y $\sin y \neq 0$):
+\[
+\frac{\tan x \, \sin^{2}y}{\cos^{2}x \, \sin^{2}y} \, dx 
++ 
+\frac{\cos^{2}x \, \cot y}{\cos^{2}x \, \sin^{2}y} \, dy = 0,
+\]
+\[
+\frac{\tan x}{\cos^{2}x} \, dx + \frac{\cot y}{\sin^{2}y} \, dy = 0.
+\]
+
+Expresando en términos de senos y cosenos:
+\[
+\frac{\sin x}{\cos^{3}x} \, dx + \frac{\cos y}{\sin^{3}y} \, dy = 0.
+\]
+
+Integramos ambos términos:
+\[
+\int \frac{\sin x}{\cos^{3}x} \, dx + \int \frac{\cos y}{\sin^{3}y} \, dy = C.
+\]
+
+\noindent
+Para la primera integral, sea $u = \cos x \Rightarrow du = -\sin x \, dx$:
+\[
+\int \frac{\sin x}{\cos^{3}x} \, dx 
+= -\int u^{-3} \, du 
+= -\left( \frac{u^{-2}}{-2} \right)
+\]
+\[
+= \frac{1}{2}u^{-2}
+= \frac{1}{2}\sec^{2}x.
+\]
+
+\noindent
+Para la segunda integral, sea $v = \sin y \Rightarrow dv = \cos y \, dy$:
+\[
+\int \frac{\cos y}{\sin^{3}y} \, dy
+= \int v^{-3} \, dv
+= \frac{v^{-2}}{-2}
+= -\frac{1}{2}\csc^{2}y.
+\]
+
+Sustituyendo ambos resultados en la ecuación integral:
+\[
+\frac{1}{2}\sec^{2}x - \frac{1}{2}\csc^{2}y = C.
+\]
+
+Multiplicamos por 2:
+\[
+\sec^{2}x - \csc^{2}y = C'.
+\]
+
+Utilizando las identidades trigonométricas:
+\[
+\sec^{2}x = 1 + \tan^{2}x, 
+\qquad 
+\csc^{2}y = 1 + \cot^{2}y,
+\]
+\[
+(1+\tan^{2}x) - (1+\cot^{2}y) = C'
+\]
+\[
+\quad \Rightarrow \quad
+\tan^{2}x - \cot^{2}y = C'.
+\]
+\[
+ - \cot^{2}y = - \tan^{2}x + C'.
+\]
+
+Múltiplicamos por -1:
+\[
+\cot^{2}y = \tan^{2}x - C'.
+\]
+Renombramos la constante:
+\[
+C' = C.
+\]
+
+\textbf{rpta: $\cot^{2}y = \tan^{2}x + C$}
 
 \section*{Ejercicio 2}
 \[xy\prime -y=y^3\]
