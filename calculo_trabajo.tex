@@ -64,7 +64,7 @@
 \course{CÁLCULO (MA-282)}
 \titleproject{Trabajo de Cálculo N°1}
 \tema{Resolución de ejercicios de Cálculo Diferencial, Ecuaciones Diferenciables Ordinarias de variable Separable.}
-\teacher{Dr. Miyagi}
+\teacher{FLORES GARCIA. Juan}
 
 \begin{document}
 \thispagestyle{empty}
@@ -79,9 +79,12 @@
     \begin{tabular}{rl}
         \textbf{Docente:} & \dyteacher \\
         \textbf{Grupo:} & B \\
-        \textbf{Integrantes:} & RAMOS QUINTANILLA, Robert Briceño [27210104] \\
-        & VARGAS HUAMAN, Jhoel Alexander [27210105] \\
-        & RUIZ RIVEROS, Roy Jhony [27202123] 
+        \textbf{Integrantes:} & HUAMAN HUACRE, Edson Nain [ 27222112] \\
+        & PARIONA VILCA, kevin Maik [27222106] \\
+        & RUIZ RIVEROS, Roy Jhony [27202123] \\
+        & RAMOS QUINTANILLA, Robert Briceño[27202108] \\
+        & VASQUEZ QUISPE, Jhover Erickson [27230506] \\
+        
     \end{tabular}\\[3cm]
     {\large Ayacucho - Perú}\\[4pt]
     {\large \dycopyrightyear}
@@ -900,9 +903,11 @@ Por lo tanto:
 	\textbf{Paso 1.} Pasar a forma separable:
 	\[
 	(1+y+y^{2})\,dx = -x(x^{2}-4)\,dy
-	\quad\Rightarrow\quad
-	\frac{dy}{1+y+y^{2}} = -\frac{dx}{x(x^{2}-4)}.
 	\]
+
+  \[
+	\quad\Rightarrow\quad
+	\frac{dy}{1+y+y^{2}} = -\frac{dx}{x(x^{2}-4)}.\]
 	
 	\textbf{Paso 2.} Integrar ambos lados:
 	\[
@@ -972,9 +977,11 @@ Por lo tanto:
 	\textbf{Paso 3.} Integrar ambos lados (usar \(\int 10^{u}du=\dfrac{10^{u}}{\ln 10}\)):
 	\[
 	\int 10^{-y}dy=\int 10^{x}dx
-	\quad\Rightarrow\quad
-	-\frac{10^{-y}}{\ln 10}=\frac{10^{x}}{\ln 10}+C.
 	\]
+
+  \[
+	\quad\Rightarrow\quad
+	-\frac{10^{-y}}{\ln 10}=\frac{10^{x}}{\ln 10}+C.\]
 	
 	\textbf{Paso 4.} Multiplicar por \(\ln 10\) y reorganizar:
 	\[
@@ -1002,9 +1009,12 @@ Por lo tanto:
 	Lado izquierdo: \(\tfrac{1}{2}y^{2}\).
 	
 	\textbf{Paso 3.} Sustitución para la integral derecha: \(u=1+x^{3}\Rightarrow du=3x^{2}dx\Rightarrow x^{2}dx=\dfrac{du}{3}\):
-	\[
-	\int\frac{x^{2}}{1+x^{3}}dx=\frac{1}{3}\int\frac{du}{u}=\frac{1}{3}\ln|u|+\tilde C=\frac{1}{3}\ln(1+x^{3})+\tilde C.
-	\]
+\[
+\int\frac{x^{2}}{1+x^{3}}dx=\frac{1}{3}\int\frac{du}{u}
+\]
+\[
+=\frac{1}{3}\ln|u|+\tilde C=\frac{1}{3}\ln(1+x^{3})+\tilde C.
+\]
 	
 	\textbf{Paso 4.} Igualar y multiplicar por 6 para limpiar fracciones:
 	\[
@@ -1043,9 +1053,10 @@ Por lo tanto:
 	\textbf{Paso 4.} Igualar y reorganizar constantes:
 	\[
 	\tfrac{1}{2}y^{2}+e^{y}=\tfrac{1}{2}x^{2}+e^{-x}+C
-	\quad\Rightarrow\quad
-	y^{2}-x^{2}+2\bigl(e^{y}-e^{-x}\bigr)=C.
 	\]
+  \[
+	\quad\Rightarrow\quad
+	y^{2}-x^{2}+2\bigl(e^{y}-e^{-x}\bigr)=C.\]
 	
 	\[
 	\boxed{y^{2}-x^{2}+2\bigl(e^{y}-e^{-x}\bigr)=C.}
@@ -1320,10 +1331,10 @@ Por lo tanto:
 	
 	\[
 	\ln\big(y + \sqrt{1+y^2}\big) = -\ln|x| + C
-	\quad \Rightarrow \quad
-	y+\sqrt{1+y^2} = \frac{K}{x}.
 	\]
-	
+	\[
+	\quad \Rightarrow \quad
+	y+\sqrt{1+y^2} = \frac{K}{x}.\]
 	Multiplicando ambos lados por \(x\) y renombrando la constante:
 	
 	\[
