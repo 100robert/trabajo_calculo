@@ -1340,7 +1340,282 @@ Por lo tanto:
 	\[
 	\boxed{\,x\bigl(y+\sqrt{1+y^{2}}\bigr)=K\,}.
 	\]
-	
+
+
+\section*{Ejercicio 25}
+\[
+\frac{dy}{dx} = \frac{(y-1)(x-2)(y+3)}{(x-1)(y-2)(x+3)}
+\]
+
+\subsection*{Solución}
+Separamos las variables dividiendo ambos lados:
+\[
+\frac{y-2}{(y-1)(y+3)}\,dy = \frac{x-2}{(x-1)(x+3)}\,dx
+\]
+
+Integramos ambos términos:
+\[
+\int \frac{y-2}{(y-1)(y+3)}\,dy \;=
+\]
+\[
+\;\int \frac{x-2}{(x-1)(x+3)}\,dx
+\]
+
+Para la primera integral usamos fracciones parciales:
+\[
+\frac{y-2}{(y-1)(y+3)} = -\tfrac{1}{4}\cdot\frac{1}{y-1} + \tfrac{5}{4}\cdot\frac{1}{y+3}
+\]
+
+Entonces:
+\[
+\int \frac{y-2}{(y-1)(y+3)}\,dy
+=
+\]
+\[
+-\tfrac{1}{4}\ln|y-1|+\tfrac{5}{4}\ln|y+3|
+\]
+
+De modo similar, para la segunda integral:
+\[
+\frac{x-2}{(x-1)(x+3)} = -\tfrac{1}{4}\cdot\frac{1}{x-1} + \tfrac{5}{4}\cdot\frac{1}{x+3}
+\]
+
+\[
+\int \frac{x-2}{(x-1)(x+3)}\,dx
+= \]
+\[
+-\tfrac{1}{4}\ln|x-1|+\tfrac{5}{4}\ln|x+3|
+\]
+
+Igualando ambas integrales:
+\[
+-\tfrac{1}{4}\ln|y-1|+\tfrac{5}{4}\ln|y+3|
+=\] \[-\tfrac{1}{4}\ln|x-1|+\tfrac{5}{4}\ln|x+3|+C
+\]
+
+Multiplicamos todo por 4:
+\[
+-\ln|y-1|+5\ln|y+3| = 
+\]
+\[=-\ln|x-1|+5\ln|x+3|+C\]
+Pasando a forma exponencial:
+\[
+\frac{(y+3)^5}{y-1} = K \cdot \frac{(x+3)^5}{x-1}
+\]
+
+\[
+\textbf{rpta: } \; (x-1)(y+3)^5 = K\,(y-1)(x+3)^5
+\]
+\section*{Ejercicio 26}
+\[
+x^2y^2 - 4x^2 = (x^2y^2 - 9y^2)\frac{dy}{dx}
+\]
+
+\subsection*{Solución}
+Despejamos la derivada:
+\[
+\frac{dy}{dx} = \frac{x^2(y^2-4)}{y^2(x^2-9)}
+\]
+
+Separamos variables:
+\[
+\frac{y^2}{y^2-4}\,dy = \frac{x^2}{x^2-9}\,dx
+\]
+
+Integramos ambos términos:
+\[
+\int \frac{y^2}{y^2-4}\,dy = \int \frac{x^2}{x^2-9}\,dx
+\]
+
+Para la primera integral:
+\[
+\frac{y^2}{y^2-4} = 1 + \frac{4}{y^2-4}
+= 1 + \frac{1}{2}\left(\frac{1}{y-2}-\frac{1}{y+2}\right)
+\]
+
+\[
+\int \frac{y^2}{y^2-4}\,dy
+= \int 1\,dy + \frac{1}{2}\int \frac{1}{y-2}\,dy - \frac{1}{2}\int \frac{1}{y+2}\,dy
+\]
+
+\[
+= y + \tfrac{1}{2}\ln|y-2| - \tfrac{1}{2}\ln|y+2|
+= y + \tfrac{1}{2}\ln\!\left|\frac{y-2}{y+2}\right|
+\]
+
+Para la segunda integral:
+\[
+\frac{x^2}{x^2-9} = 1 + \frac{9}{x^2-9}
+= 1 + \tfrac{3}{2}\left(\frac{1}{x-3}-\frac{1}{x+3}\right)
+\]
+
+\[
+\int \frac{x^2}{x^2-9}\,dx
+= x + \tfrac{3}{2}\ln|x-3| - \tfrac{3}{2}\ln|x+3|\]
+\[= x + \tfrac{3}{2}\ln\!\left|\frac{x-3}{x+3}\right|
+\]
+
+Entonces:
+\[
+y + \tfrac{1}{2}\ln\!\left|\frac{y-2}{y+2}\right|
+= x + \tfrac{3}{2}\ln\!\left|\frac{x-3}{x+3}\right| + C
+\]
+
+\[
+\textbf{rpta: } \; y + \tfrac{1}{2}\ln\!\left(\tfrac{y-2}{y+2}\right) = x + \tfrac{3}{2}\ln\!\left(\tfrac{x-3}{x+3}\right)+C
+\]
+
+---
+
+\section*{Ejercicio 27}
+\[
+(x-y^2x)\,dx+(y-x^2y)\,dy=0
+\]
+
+\subsection*{Solución}
+Factorizamos:
+\[
+x(1-y^2)\,dx + y(1-x^2)\,dy=0
+\]
+
+Reordenamos:
+\[
+\frac{x}{1-x^2}\,dx = -\frac{y}{1-y^2}\,dy
+\]
+
+Integramos ambos términos:
+\[
+\int \frac{x}{1-x^2}\,dx = -\int \frac{y}{1-y^2}\,dy
+\]
+
+Usando sustitución $u=1-x^2$, $du=-2x\,dx$:
+\[
+\int \frac{x}{1-x^2}\,dx = -\tfrac{1}{2}\ln|1-x^2|
+\]
+
+De modo similar:
+\[
+\int \frac{y}{1-y^2}\,dy = -\tfrac{1}{2}\ln|1-y^2|
+\]
+
+Entonces:
+\[
+-\tfrac{1}{2}\ln|1-x^2| = -\Big(-\tfrac{1}{2}\ln|1-y^2|\Big) + C
+\]
+
+\[
+-\tfrac{1}{2}\ln|1-x^2| = \tfrac{1}{2}\ln|1-y^2|+C
+\]
+
+Multiplicamos por 2 y exponenciamos:
+\[
+\ln\!\left|\frac{1-y^2}{1-x^2}\right| = C
+\]
+
+\[
+\textbf{rpta: } \; (x^2-1)(y^2-1) = K
+\]
+
+---
+
+\section*{Ejercicio 28}
+\[
+y^2\sqrt{1-x^2}\,dy=\arcsin(x)\,dx \quad , \; -1<x<1
+\]
+
+\subsection*{Solución}
+Separamos variables:
+\[
+y^2\,dy = \frac{\arcsin(x)}{\sqrt{1-x^2}}\,dx
+\]
+
+Integramos ambos términos:
+\[
+\int y^2\,dy = \int \frac{\arcsin(x)}{\sqrt{1-x^2}}\,dx
+\]
+
+Hacemos sustitución $u=\arcsin(x)$, $du=\tfrac{1}{\sqrt{1-x^2}}dx$:
+\[
+\int y^2\,dy = \int u\,du
+\]
+
+\[
+\tfrac{1}{3}y^3 = \tfrac{1}{2}u^2 + C
+\]
+
+Sustituimos $u=\arcsin(x)$:
+\[
+\frac{1}{3}y^3 = \frac{1}{2}(\arcsin x)^2 + C
+\]
+
+\[
+\textbf{rpta: } \; 2y^3 - 3(\arcsin x)^2 = C
+\]
+
+---
+
+\section*{Ejercicio 29}
+\[
+x\frac{dy}{dx} = \sqrt{1-y^2}
+\]
+
+\subsection*{Solución}
+Separamos variables:
+\[
+\frac{dy}{\sqrt{1-y^2}} = \frac{dx}{x}
+\]
+
+Integramos ambos términos:
+\[
+\int \frac{dy}{\sqrt{1-y^2}} = \int \frac{dx}{x}
+\]
+
+\[
+\arcsin(y) = \ln|x| + C
+\]
+
+\[
+\textbf{rpta: } \; y = \sin(\ln|x|+C)
+\]
+
+---
+
+\section*{Ejercicio 30}
+\[
+x y\,dx + (x^2+1)e^{x^2}\,dy=0
+\]
+
+\subsection*{Solución}
+Reordenamos:
+\[
+\frac{dy}{y} = -\frac{x}{(x^2+1)e^{x^2}}\,dx
+\]
+
+Integramos ambos términos:
+\[
+\int \frac{1}{y}\,dy = -\int \frac{x}{(x^2+1)e^{x^2}}\,dx
+\]
+
+La izquierda es inmediata:
+\[
+\ln|y|
+\]
+
+Para la derecha usamos sustitución $u=x^2$, $du=2x\,dx$:
+\[
+-\int \frac{x}{(x^2+1)e^{x^2}}\,dx
+= -\tfrac{1}{2}\int \frac{e^{-u}}{u+1}\,du
+\]
+
+Por lo tanto:
+\[
+\ln|y| = -\tfrac{1}{2}\int \frac{e^{-u}}{u+1}\,du + C
+\]
+
+\[
+\textbf{rpta: } \; y = C \exp\!\Big(-\tfrac{1}{2}\int^{x^2}\tfrac{e^{-s}}{s+1}\,ds\Big)
+\]
+
 \end{multicols}
 
 \end{document}
