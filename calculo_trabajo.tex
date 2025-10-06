@@ -435,51 +435,49 @@ J=e^x\cos x+\int e^x\sin x\,dx = e^x\cos x + I
 
 Sustituyendo \(J\) en \(I\):
 \[
-I = e^x\sin x - (e^x\cos x + I) \quad\Rightarrow\quad 2I = e^x(\sin x-\cos x)
+I = e^x\sin x - (e^x\cos x + I) 
 \]
+
+\[\quad\Rightarrow\quad 2I = e^x(\sin x-\cos x)\]
+
 Por tanto
 \[
 \; \int e^{x}\sin x\,dx = I = \frac{e^x}{2}(\sin x-\cos x)\; 
 \]
-
+\noindent
 Ahora calculamos la integral respecto a \(y\):
 \[
 \int (2y+1)e^{-y^2-y}\,dy
 \]
-Hacemos la sustitución
+\noindent
+Para el miembro derecho, hacemos la sustitución:
 \[
-u = 1 + x^{3} \quad \Rightarrow \quad du = 3x^{2}\,dx \quad \Rightarrow \quad x^{2}\,dx = \frac{1}{3}\,du.
+u = 1 + x^{3} \Rightarrow du = 3x^{2}\,dx
+\]
+\[
+\Rightarrow x^{2}\,dx = \frac{1}{3}\,du.
 \]
 
 Sustituyendo en la integral:
-\[
+\begin{align*}
 \int \frac{x^{2}}{\sqrt{1+x^{3}}}\,dx 
-= \frac{1}{3} \int u^{-1/2}\,du 
-= \frac{1}{3} \cdot 2u^{1/2}
-= \frac{2}{3}\sqrt{1+x^{3}} + C_{2}.
-\]
-
+&= \frac{1}{3} \int u^{-1/2}\,du \\
+&= \frac{1}{3} \cdot 2u^{1/2} \\
+&= \frac{2}{3}\sqrt{1+x^{3}} + C_{2}.
+\end{align*}
 \subsubsection*{Igualando los resultados}
+\noindent
 Combinando ambas integrales (y absorbiendo las constantes en una sola $C$):
 \[
 \;\frac{e^x}{2}(\sin x-\cos x)-e^{-y^2-y}=C\;
 \]
-
+\noindent
 Multiplicamos por 2 a toda la ecuación:
 \[
 \;{e^x}(\sin x-\cos x)-2e^{-y^2-y}=C\;
 \]
 
 \textbf{rpta: $\,2\sqrt{1+x^{3}} = 3\ln(y+1) + C\,$}
-
-\section*{Ejercicio 4}
-\[e^{2x-y}dx+e^{y-2x}dy=0\]
-
-\section*{Ejercicio 5}
-\[(x^2y-x^2+y-1)dx+(xy+2y-3y-6)dy=0\]
-
-\section*{Ejercicio 6}
-\[e^{x+y}senx \, dx+(2y+1)e^{-y^2}dy=0\]
 
 
 \section*{Ejercicio 7} \[3e^x\tg y \, dx+(1-e^x)\sec^2 y \, dy=0\] 
@@ -493,13 +491,14 @@ Multiplicamos por 2 a toda la ecuación:
 \[\frac{3e^x}{1-e^x}dx=-\frac{\sec^2 y}{\tg y}dy\] 
 
 \[3\int\frac{e^x}{1-e^x}dx=-\int\frac{\sec^2 y}{\tg y}dy\]  
-
+\noindent
 se conose a la funcion $\tg$ y se puede utilizar la regla de la integral de tangente \[\frac{d}{dx}(\tg)=\sec^2x\]
 \[\frac{d}{dx}(\tg)=sec^2x\] 
+\noindent
 sustituyendo los Valores \[u=1-e^x\] \[du=-e^x\,dx\] 
 
 \[-du=e^xdx\]
-
+\noindent
 Reemplazando en la integral 
 
 \[3\int\frac{e^x}{1-e^x}dx=\int\frac{\sec^2 y}{\tg y}dy\] 
@@ -527,7 +526,7 @@ Reemplazando en la integral
 \[\frac{e^y}{1-e^y}dy=dx\]
 
 \[\int\frac{e^y}{1-e^y}dy=\int dx\]
-
+\noindent
 sustituyendo los Valores \[u=1-e^y\] \[du=-e^y\,dy\] 
 
 \[\int\frac{e^y}{1-e^y}dy=\int\frac{du}{u}\]
@@ -553,25 +552,26 @@ rpta: $\frac{dy}{dx}=\frac{1}{e^y-1}$
 
 \[\int\frac{dy}{1+y^2}=\int dx + \int(x)dx\]
 
-
+\noindent
 
 sabemos que 
 \begin{equation*}
 \int\frac{du}{a^2+u^2}=\frac{1}{a}\tan^{-1}\left(\frac{u}{a}\right)
 \end{equation*}
-
+\noindent
 es lo mismo tener $1=1^2 $
-
+\noindent
 \textbf{reemplazando}
 \[\int\frac{dy}{1^2+y^2}=\int dx + \int(x)dx\]
-
+\noindent
 \textbf{usando la regla de la integral de tangente}
 \[\int\frac{dy}{1^2+y^2}=\frac{1}{1}\tan^{-1}\left(\frac{y}{1}\right) = \tan^{-1}y\]
 
 \[\tan^{-1}y=x+\frac{x^2}{2}+C\]
-
+\noindent
 \textbf{O tambien se puede escribir como}
 \[\tan^{-1}y - x - \frac{x^2}{2}=C\]
+\noindent
 \textbf{se puede escribir como}
 \[\arctan y - x - \frac{x^2}{2}=C\]
 
@@ -580,9 +580,237 @@ rpta: $\arctan y-x-\frac{x^2}{2}=C$
 
 \section*{Ejercicio 10}
 
-\[y- xy\prime=a(1+x^2y)\]
+\[y- xy\prime=a(1+x^2y\prime)\]
+
+\subsection*{Solución}
+\[y- xy\prime=a(1+x^2y\prime)\]
+\[y= a +ax^2y\prime+xy\prime\]
+\[y= a +xy\prime (ax +1)\]
+\[xy\prime = \frac{y-a}{ax+1}\]
+\[\frac{dy}{dx} = \frac{y-a}{ax^2+x}\]
+\[\frac{dy}{y-a}=\frac{dx}{ax^2+x}\]
+\noindent
+Por lo tanto Integramos ambos lados:
+\[\int\frac{dy}{y-a}=\int\frac{dx}{ax^2+x}\]
+
+\[\int\frac{dy}{y-a}=\int\frac{dx}{x^2(a+\frac{1}{x})}\]
+
+\[\int\frac{dy}{y-a}=\int\frac{dx}{x^2}\frac{1}{(a+\frac{1}{x})}\]
+
+\noindent
+Sustituimos valores:
+\[
+u = y - a, \quad du = dy
+\]
+\[
+v = a + \frac{1}{x}, \quad dv = -\frac{1}{x^2}dx \Rightarrow -dv = \frac{1}{x^2}dx
+\]
+
+\noindent
+Reemplazando en la ecuación integral se tendria:
+\[\int\frac{du}{u}=\int-dv\frac{1}{v}\]
+\[\int\frac{du}{u}=-\int\frac{dv}{v}\]
+\[\ln(u)=-\ln(v)+C_1\]
+\[
+\ln(u)=\ln\!\left(\frac{1}{v}\right)+C_1
+\]
+\[
+\ln(u)=\ln\!\left(\frac{1}{v}\right)+\ln(K)
+\]
+\[
+\ln(u)=\ln\!\left(\frac{K}{v}\right)
+\]
+\[
+u=\frac{K}{v}
+\]
+\[
+y - a = \frac{K}{a + \frac{1}{x}}
+\]
+\[
+y - a = \frac{Kx}{\frac{ax+1}{x}}
+\]
+\[
+y = a + \frac{Kx}{1+ax}
+\]
+\[
+y = \frac{a(1+ax)+Kx}{1+ax}
+\]
+\[
+y = \frac{a + a^2x + Kx}{1+ax}
+\]
+\[
+y = \frac{a + (a^2+K)\,x}{1+ax}
+\]
+\[
+\text{Sea }C:=a^2+K
+\]
+\[
+\boxed{\,y=\frac{a+Cx}{1+ax}\,}
+\]
 
 rpta: \[y=\frac{a+cx}{1+ax}\]
+\section*{Ejercicio 11}
+\[(1+y^2)dx=(y-\sqrt{1+y^2})(1+x^2)^{\frac{3}{2}}dy\]
+
+\subsection*{Solución}
+\[
+(1+y^2)\,dx = (y - \sqrt{1+y^2})(1+x^2)^{\frac{3}{2}}\,dy
+\]
+
+\noindent
+Dividimos ambos lados entre \((1+x^2)^{\frac{3}{2}}(1+y^2)\) para separar variables:
+\[
+\frac{dx}{(1+x^2)^{\frac{3}{2}}} = \frac{y-\sqrt{1+y^2}}{1+y^2}\,dy
+\]
+
+\[
+\int\frac{dx}{(1+x^2)^{\frac{3}{2}}}
+=
+\int\frac{y}{1+y^2}\,dy
+-
+\int\frac{\sqrt{1+y^2}}{1+y^2}\,dy
+\]
+
+---
+
+ 1. Resolviendo la primera integral
+\[
+\int\frac{dx}{(1+x^2)^{\frac{3}{2}}}
+\]
+
+\noindent
+Basándonos en la fórmula conocida:
+\[
+\int\frac{du}{(a^2+u^2)^{3/2}} = \frac{u}{a^2\sqrt{a^2+u^2}} + C
+\]
+
+\noindent
+Aquí \(a=1\), por lo tanto:
+\[
+\int\frac{dx}{(1+x^2)^{\frac{3}{2}}} = \frac{x}{\sqrt{1+x^2}} + C_1
+\]
+
+---
+
+2. Resolviendo la segunda integral
+\[
+\int\frac{y}{1+y^2}\,dy
+\]
+
+\noindent
+Sea \(u = 1+y^2 \Rightarrow du = 2y\,dy\):
+\[
+\int\frac{y}{1+y^2}\,dy = \frac{1}{2}\int\frac{du}{u} = \frac{1}{2}\ln|u| + C_2
+\]
+
+\[
+\int\frac{y}{1+y^2}\,dy = \frac{1}{2}\ln(1+y^2) + C_2
+\]
+
+---
+
+3. Resolviendo la tercera integral
+\[
+\int\frac{\sqrt{1+y^2}}{1+y^2}\,dy = \int\frac{1}{\sqrt{1+y^2}}\,dy
+\]
+
+\noindent
+Usando la fórmula conocida:
+\[
+\int\frac{du}{\sqrt{a^2+u^2}} = \ln|u+\sqrt{a^2+u^2}| + C
+\]
+con \(a=1\), se tiene:
+\[
+\int\frac{dy}{\sqrt{1+y^2}} = \ln|y+\sqrt{1+y^2}| + C_3
+\]
+
+---
+
+ 4. Sustituyendo los resultados en la ecuación
+\[
+\frac{x}{\sqrt{1+x^2}} = \frac{1}{2}\ln(1+y^2) - \ln|y+\sqrt{1+y^2}| + C
+\]
+
+\noindent
+Aplicamos la propiedad de logaritmos:
+\[
+a\ln A - \ln B = \ln\!\left(\frac{A^a}{B}\right)
+\]
+
+\[
+\frac{x}{\sqrt{1+x^2}} = \ln\!\left(\frac{(1+y^2)^{1/2}}{y+\sqrt{1+y^2}}\right) + C
+\]
+
+\[
+\boxed{
+\ln\left\lvert
+\frac{\sqrt{1+y^2}}{y+\sqrt{1+y^2}}
+\right\rvert
+=
+\frac{x}{\sqrt{1+x^2}} + C
+}
+\]
+
+
+\section*{Ejercicio 12}
+\[(1-y)e^yy\prime+\frac{y^2}{x\ln x}=0\]
+
+\subsection*{Solución}
+\[
+(1-y)e^{y}\frac{dy}{dx} = -\frac{y^{2}}{x\ln x}
+\]
+\[
+\Rightarrow\quad
+\frac{(1-y)e^{y}}{y^{2}}\,dy = -\frac{dx}{x\ln x}
+\]
+
+\noindent
+Se separan las variables:
+\[
+\int \frac{(1-y)e^{y}}{y^{2}}\,dy = -\int \frac{dx}{x\ln x}
+\]
+
+\noindent
+Desarrollamos el numerador:
+\[
+\int \frac{e^{y}}{y^{2}}\,dy - \int \frac{e^{y}}{y}\,dy = -\int \frac{dx}{x\ln x}
+\]
+
+\noindent
+Recordemos que:
+\[
+\frac{d}{dy}\left(-\frac{e^{y}}{y}\right)=e^{y}\frac{1-y}{y^{2}}
+\]
+\[
+\Rightarrow 
+\int \frac{(1-y)e^{y}}{y^{2}}\,dy = -\frac{e^{y}}{y} + C_1
+\]
+\columnbreak
+
+\noindent
+Para el otro lado, se usa la fórmula conocida:
+\[
+\int \frac{dx}{x\ln x} = \ln|\ln x| + C_2
+\]
+
+\noindent
+Sustituyendo:
+\[
+-\frac{e^{y}}{y} = -\ln|\ln x| + C
+\]
+
+\noindent
+Multiplicando por $-1$:
+\[
+\frac{e^{y}}{y} = \ln|\ln x| + C'
+\]
+
+\noindent
+Por lo tanto:
+\[
+\boxed{\,C + \frac{e^{y}}{y} = \ln(\ln x)\,}
+\qquad (\text{válido para }x>1,\ y\neq0)
+\]
 
 \end{multicols}
 
