@@ -812,6 +812,524 @@ Por lo tanto:
 \qquad (\text{válido para }x>1,\ y\neq0)
 \]
 
+
+\section*{Ecuación 13}
+	\[
+	e^{-y}\bigl(1+y'\bigr)=1,\qquad y'=\frac{dy}{dx}.
+	\]
+	
+	Multiplicar por \(e^{y}\):
+	\[
+	1+\frac{dy}{dx}=e^{y}\quad\Rightarrow\quad \frac{dy}{dx}=e^{y}-1.
+	\]
+	
+	Separar variables:
+	\[
+	\frac{dy}{e^{y}-1}=dx.
+	\]
+	
+	\textbf{Paso 3.} Sustitución \(t=e^{y}\), \(dt=e^{y}dy=t\,dy\Rightarrow dy=\frac{dt}{t}\):
+	\[
+	\int\frac{dy}{e^{y}-1}=\int\frac{dt}{t(t-1)}.
+	\]
+	
+	\textbf{Paso 4.} Fracciones parciales:
+	\[
+	\frac{1}{t(t-1)}=-\frac{1}{t}+\frac{1}{t-1}
+	\]
+	\[
+	\int\frac{dt}{t(t-1)}=-\ln|t|+\ln|t-1|+C=\ln\!\Big(\frac{t-1}{t}\Big)+C.
+	\]
+	
+	\textbf{Paso 5.} Volver a \(y\) y simplificar:
+	\[
+	\ln(1-e^{-y})=x+C.
+	\]
+	
+	\textbf{Paso 6.} Exponenciar y reordenar:
+	\[
+	1-e^{-y}=e^{x+C}=e^{C}e^{x}\quad\Rightarrow\quad e^{x}=C(1-e^{-y}).
+	\]
+	
+	\[
+	\boxed{e^{x}=C(1-e^{-y})}
+	\]
+	
+	\section*{Ecuación 14}
+	\[
+	e^{x-y}\,dx+e^{y-x}\,dy=0.
+	\]
+	
+	\textbf{Paso 1.} Poner en forma \(\dfrac{dy}{dx}\):
+	\[
+	e^{x-y}+e^{y-x}\frac{dy}{dx}=0
+	\quad\Rightarrow\quad
+	\frac{dy}{dx}=-\frac{e^{x-y}}{e^{y-x}}.
+	\]
+	
+	\textbf{Paso 2.} Simplificar la razón de exponentes:
+	\[
+	\frac{e^{x-y}}{e^{y-x}}=e^{(x-y)-(y-x)}=e^{2x-2y}=e^{2(x-y)},
+	\]
+	\[
+	\frac{dy}{dx}=-e^{2(x-y)}.
+	\]
+	
+	\textbf{Paso 3.} Separar variables:
+	\[
+	e^{2y}\,dy=-e^{2x}\,dx.
+	\]
+	
+	\textbf{Paso 4.} Integrar:
+	\[
+	\int e^{2y}dy=-\int e^{2x}dx
+	\quad\Rightarrow\quad
+	\frac{1}{2}e^{2y}=-\frac{1}{2}e^{2x}+C.
+	\]
+	
+	\textbf{Paso 5.} Reordenar y renombrar constante:
+	\[
+	e^{2x}+e^{2y}=2C \Rightarrow \boxed{e^{2x}+e^{2y}=C.}
+	\]
+	
+	\section*{Ecuación 15}
+	\[
+	(1+y+y^{2})\,dx + x(x^{2}-4)\,dy = 0.
+	\]
+	
+	\textbf{Paso 1.} Pasar a forma separable:
+	\[
+	(1+y+y^{2})\,dx = -x(x^{2}-4)\,dy
+	\quad\Rightarrow\quad
+	\frac{dy}{1+y+y^{2}} = -\frac{dx}{x(x^{2}-4)}.
+	\]
+	
+	\textbf{Paso 2.} Integrar ambos lados:
+	\[
+	\int\frac{dy}{1+y+y^{2}} = -\int\frac{dx}{x(x^{2}-4)}.
+	\]
+	
+	\textbf{Paso 3.} Integral izquierda: completar cuadrado
+	\[
+	1+y+y^{2}=\Big(y+\tfrac{1}{2}\Big)^{2}+\tfrac{3}{4}.
+	\]
+	Con \(u=y+\tfrac{1}{2}\),
+	
+	\[
+	\int\frac{dy}{1+y+y^{2}} 
+	= \int\frac{du}{u^{2}+(\tfrac{\sqrt{3}}{2})^{2}}\\
+	= \frac{2}{\sqrt{3}}\arctan\!\Big(\tfrac{2u}{\sqrt{3}}\Big)\\
+	\]
+	\[
+	= \frac{2}{\sqrt{3}}\arctan\!\Big(\tfrac{2y+1}{\sqrt{3}}\Big).
+	\]
+	\textbf{Paso 4.} Integral derecha: descomponer en fracciones parciales
+	\[
+	\frac{1}{x(x^{2}-4)}=\frac{A}{x}+\frac{Bx+C}{x^{2}-4}.
+	\]
+	Resolviendo coeficientes se obtiene \(A=-\tfrac{1}{4},\;B=\tfrac{1}{4},\;C=0\). Así
+	\[
+	\frac{1}{x(x^{2}-4)}=-\frac{1}{4}\frac{1}{x}+\frac{1}{4}\frac{x}{x^{2}-4}.
+	\]
+	Integrando (con el signo negativo que había afuera):
+	\[
+	-\int\frac{dx}{x(x^{2}-4)}=\int\Big(\frac{1}{4}\frac{1}{x}-\frac{1}{4}\frac{x}{x^{2}-4}\Big)dx
+	\]
+	\[	
+	=\frac{1}{4}\ln|x|-\frac{1}{8}\ln|x^{2}-4|+C.
+	\]
+	
+	\textbf{Paso 5.} Igualar ambas integrales:
+	\[
+	\frac{2}{\sqrt{3}}\arctan\!\Big(\frac{2y+1}{\sqrt{3}}\Big)
+	=\frac{1}{4}\ln|x|-\frac{1}{8}\ln|x^{2}-4|+C.
+	\]
+	
+	\textbf{Paso 6.} Reordenar para la forma solicitada (combinar logaritmos):
+	\[
+	\frac{1}{8}\ln\!\Big(\frac{x^{2}-4}{x^{2}}\Big)+\frac{2}{\sqrt{3}}\arctan\!\Big(\frac{2y+1}{\sqrt{3}}\Big)=C.
+	\]
+	
+	\[
+	\boxed{\displaystyle \frac{1}{8}\ln\!\Big(\frac{x^{2}-4}{x^{2}}\Big)+\frac{2}{\sqrt{3}}\arctan\!\Big(\frac{2y+1}{\sqrt{3}}\Big)=C.}
+	\]
+	
+	\section*{Ecuación 16}
+	\[
+	y' = 10^{\,x-y}.
+	\]
+	
+	\textbf{Paso 1.} Escribir como producto:
+	\[
+	\frac{dy}{dx}=10^{x-y}=10^{x}10^{-y}.
+	\]
+	
+	\textbf{Paso 2.} Separar variables:
+	\[
+	10^{-y}dy = 10^{x}dx.
+	\]
+	
+	\textbf{Paso 3.} Integrar ambos lados (usar \(\int 10^{u}du=\dfrac{10^{u}}{\ln 10}\)):
+	\[
+	\int 10^{-y}dy=\int 10^{x}dx
+	\quad\Rightarrow\quad
+	-\frac{10^{-y}}{\ln 10}=\frac{10^{x}}{\ln 10}+C.
+	\]
+	
+	\textbf{Paso 4.} Multiplicar por \(\ln 10\) y reorganizar:
+	\[
+	-10^{-y}=10^{x}+C' \quad\Rightarrow\quad 10^{x}+10^{-y}=C.
+	\]
+	
+	\[
+	\boxed{10^{x}+10^{-y}=C.}
+	\]
+	
+	\section*{Ecuación 17}
+	\[
+	\frac{dy}{dx}=\frac{x^{2}}{y(1+x^{3})}.
+	\]
+	
+	\textbf{Paso 1.} Separar variables multiplicando por \(y\,dx\):
+	\[
+	y\,dy=\frac{x^{2}}{1+x^{3}}\,dx.
+	\]
+	
+	\textbf{Paso 2.} Integrar ambos lados:
+	\[
+	\int y\,dy=\int\frac{x^{2}}{1+x^{3}}\,dx.
+	\]
+	Lado izquierdo: \(\tfrac{1}{2}y^{2}\).
+	
+	\textbf{Paso 3.} Sustitución para la integral derecha: \(u=1+x^{3}\Rightarrow du=3x^{2}dx\Rightarrow x^{2}dx=\dfrac{du}{3}\):
+	\[
+	\int\frac{x^{2}}{1+x^{3}}dx=\frac{1}{3}\int\frac{du}{u}=\frac{1}{3}\ln|u|+\tilde C=\frac{1}{3}\ln(1+x^{3})+\tilde C.
+	\]
+	
+	\textbf{Paso 4.} Igualar y multiplicar por 6 para limpiar fracciones:
+	\[
+	\frac{1}{2}y^{2}=\frac{1}{3}\ln(1+x^{3})+C
+	\quad\Rightarrow\quad
+	3y^{2}-2\ln(1+x^{3})=C.
+	\]
+	
+	\[
+	\boxed{3y^{2}-2\ln(1+x^{3})=C.}
+	\]
+	
+	\section*{Ecuación 18}
+	\[
+	\frac{dy}{dx}=\frac{x-e^{-x}}{y+e^{y}}.
+	\]
+	
+	\textbf{Paso 1.} Separar variables:
+	\[
+	(y+e^{y})\,dy=(x-e^{-x})\,dx.
+	\]
+	
+	\textbf{Paso 2.} Integrar ambos lados:
+	\[
+	\int (y+e^{y})\,dy=\int (x-e^{-x})\,dx.
+	\]
+	
+	\textbf{Paso 3.} Calcular integrales:
+	\[
+	\int y\,dy=\tfrac{1}{2}y^{2},\qquad \int e^{y}dy=e^{y},
+	\]
+	\[
+	\int x\,dx=\tfrac{1}{2}x^{2},\qquad \int (-e^{-x})dx=e^{-x}.
+	\]
+	
+	\textbf{Paso 4.} Igualar y reorganizar constantes:
+	\[
+	\tfrac{1}{2}y^{2}+e^{y}=\tfrac{1}{2}x^{2}+e^{-x}+C
+	\quad\Rightarrow\quad
+	y^{2}-x^{2}+2\bigl(e^{y}-e^{-x}\bigr)=C.
+	\]
+	
+	\[
+	\boxed{y^{2}-x^{2}+2\bigl(e^{y}-e^{-x}\bigr)=C.}
+	\]
+
+	
+	\section*{Ecuación 19}
+	\[
+	\frac{dy}{dx} = \frac{a x + b}{c x + d}
+	\]
+	
+	\textbf{Paso 1:} Reescribimos en forma diferencial:
+	\[
+	dy = \frac{a x + b}{c x + d}\,dx
+	\]
+	
+	\textbf{Paso 2:} Sustitución \(u = c x + d \Rightarrow du = c\,dx\)
+	\[
+	x = \frac{u - d}{c}, \qquad a x + b = \frac{a}{c}u + \frac{bc - ad}{c}
+	\]
+	
+	\textbf{Paso 3:} Integramos en términos de \(u\)
+	\[
+	\int \frac{a x + b}{c x + d}\,dx 
+	= \int \left( \frac{a}{c^2} + \frac{bc - ad}{c^2}\frac{1}{u} \right) du
+	\]
+	\[
+	= \frac{a}{c^2}u + \frac{bc - ad}{c^2}\ln|u| + C
+	\]
+	
+	\textbf{Paso 4:} Sustituimos \(u = c x + d\)
+	\[
+	y = \frac{a}{c^2}(c x + d) + \frac{bc - ad}{c^2}\ln|c x + d| + C
+	\]
+	\[
+	\boxed{y = \frac{a}{c}x + \frac{bc - ad}{c^2}\ln|c x + d| + K}
+	\]
+	
+	---
+	
+	\section*{Ecuación 20}
+	\[
+	\frac{dy}{dx} = \frac{a y + b}{c y + d}
+	\]
+	
+	\textbf{Paso 1:} Invertimos la ecuación:
+	\[
+	\frac{dx}{dy} = \frac{c y + d}{a y + b}
+	\]
+	
+	\textbf{Paso 2:} Sustitución \(v = a y + b \Rightarrow dv = a\,dy\)
+	\[
+	c y + d = \frac{c}{a}v + \frac{ad - bc}{a}
+	\]
+	
+	\textbf{Paso 3:} Integramos:
+	\[
+	x = \int \frac{c y + d}{a y + b}\,dy 
+	= \int \left( \frac{c}{a^2} + \frac{ad - bc}{a^2}\frac{1}{v} \right) dv
+	\]
+	\[
+	x = \frac{c}{a^2}v + \frac{ad - bc}{a^2}\ln|v| + C
+	\]
+	
+	\textbf{Paso 4:} Sustituimos \(v = a y + b\)
+	\[
+	\boxed{x = \frac{c}{a}y + \frac{ad - bc}{a^2}\ln|a y + b| + K}
+	\]
+	
+	---
+	
+	\section*{Ecuación 21}
+	\[
+	y(x^3\,dy + y^3\,dx) = x^3\,dy
+	\]
+	
+	\textbf{Paso 1:} Expandimos:
+	\[
+	y x^3\,dy + y^4\,dx = x^3\,dy
+	\]
+	\[
+	y^4\,dx + x^3(y - 1)\,dy = 0
+	\]
+	
+	\textbf{Paso 2:} Separación de variables:
+	\[
+	\frac{dx}{x^3} = \frac{1 - y}{y^4}\,dy
+	\]
+	
+	\textbf{Paso 3:} Integramos ambos lados:
+	\[
+	\int x^{-3}\,dx = -\frac{1}{2x^2}
+	\]
+	\[
+	\int \frac{1 - y}{y^4}\,dy = \int(y^{-4} - y^{-3})\,dy = -\frac{1}{3y^3} + \frac{1}{2y^2}
+	\]
+	\[
+	-\frac{1}{2x^2} = -\frac{1}{3y^3} + \frac{1}{2y^2} + C
+	\]
+	
+	\textbf{Paso 4:} Simplificamos:
+	\[
+	\boxed{3y^3 + 3x^2y - 2x^2 = K\,x^2y^3}
+	\]
+	
+	---
+	
+	\section*{Ecuación 22}
+	\[
+	(xy + x)\,dx = (x^2y^2 + x^2 + y^2 + 1)\,dy
+	\]
+	
+	\textbf{Paso 1:} Dividimos entre \(dx\):
+	\[
+	\frac{dy}{dx} = \frac{x(y + 1)}{(x^2 + 1)(y^2 + 1)}
+	\]
+	
+	\textbf{Paso 2:} Separación de variables:
+	\[
+	\frac{y^2 + 1}{y + 1}\,dy = \frac{x}{x^2 + 1}\,dx
+	\]
+	
+	\textbf{Paso 3:} Simplificamos la fracción:
+	\[
+	\frac{y^2 + 1}{y + 1} = y - 1 + \frac{2}{y + 1}
+	\]
+	
+	\textbf{Paso 4:} Integramos:
+	\[
+	\int (y - 1 + \frac{2}{y + 1})\,dy = \frac{1}{2}y^2 - y + 2\ln|y + 1|
+	\]
+	\[
+	\int \frac{x}{x^2 + 1}\,dx = \frac{1}{2}\ln(x^2 + 1)
+	\]
+	\[
+	\frac{1}{2}y^2 - y + 2\ln|y + 1| = \frac{1}{2}\ln(x^2 + 1) + C
+	\]
+	
+	\[
+	\boxed{\ln(x^2 + 1) = y^2 - 2y + 4\ln(K(y + 1))}
+	\]
+	\section*{Ecuacion 23}
+	
+	Considere la ecuación diferencial:
+	
+	\[
+	(2xy + 3)\,dx + (x^2 + 4y)\,dy = 0
+	\]
+	
+	\textbf{Paso 1.} Identificar \(M(x,y)\) y \(N(x,y)\):
+	
+	\[
+	M(x,y) = 2xy + 3, \quad N(x,y) = x^2 + 4y.
+	\]
+	
+	\textbf{Paso 2.} Verificar la condición de exactitud:
+	
+	\[
+	\frac{\partial M}{\partial y} = 2x, \quad \frac{\partial N}{\partial x} = 2x.
+	\]
+	
+	Como 
+	\[
+	\frac{\partial M}{\partial y} = \frac{\partial N}{\partial x},
+	\]
+	la ecuación es \textbf{exacta}.
+	
+	\textbf{Paso 3.} Existe una función potencial \(\psi(x,y)\) tal que:
+	
+	\[
+	\frac{\partial \psi}{\partial x} = M = 2xy + 3, \qquad
+	\frac{\partial \psi}{\partial y} = N = x^2 + 4y.
+	\]
+	
+	\textbf{Paso 4.} Integramos \(M\) respecto a \(x\):
+	
+	\[
+	\psi(x,y) = \int (2xy + 3)\,dx = x^2y + 3x + h(y),
+	\]
+	donde \(h(y)\) es una función arbitraria de \(y\).
+	
+	\textbf{Paso 5.} Derivamos respecto a \(y\) y comparamos con \(N\):
+	
+	\[
+	\frac{\partial \psi}{\partial y} = x^2 + h'(y).
+	\]
+	
+	Igualando con \(N = x^2 + 4y\):
+	
+	\[
+	x^2 + h'(y) = x^2 + 4y \quad \Rightarrow \quad h'(y) = 4y.
+	\]
+	
+	\textbf{Paso 6.} Integramos \(h'(y)\):
+	
+	\[
+	h(y) = 2y^2 + C.
+	\]
+	
+	\textbf{Paso 7.} Sustituimos en \(\psi(x,y)\):
+	
+	\[
+	\psi(x,y) = x^2y + 3x + 2y^2 + C.
+	\]
+	
+	\textbf{Paso 8.} La solución general de la ecuación diferencial exacta es:
+	
+	\[
+	\boxed{\,x^2y + 3x + 2y^2 = K\,}.
+	\]
+	
+	\section*{Ecuación 24}
+	
+	\[
+	x\,dy + \sqrt{1+y^{2}}\,dx = 0
+	\]
+	
+	\textbf{Paso 1.} Reescribir como \(\dfrac{dy}{dx}\):
+	
+	\[
+	\frac{dy}{dx} = -\frac{\sqrt{1+y^{2}}}{x}.
+	\]
+	
+	\textbf{Paso 2.} Separar variables:
+	
+	\[
+	\frac{dy}{\sqrt{1+y^{2}}} = -\frac{dx}{x}.
+	\]
+	
+	\textbf{Paso 3.} Integrar:
+	
+	\[
+	\int \frac{dy}{\sqrt{1+y^{2}}} = \operatorname{arsinh}(y) = \ln\big(y + \sqrt{1+y^2}\big),
+	\]
+	
+	\[
+	\int -\frac{dx}{x} = -\ln|x| + C.
+	\]
+	explicacion\\
+	La integral
+	\[
+	\int \frac{dy}{\sqrt{1+y^2}}
+	\]
+	es efectivamente una integral estándar cuya primitiva es
+	\[
+	\ln \left| y + \sqrt{1+y^2} \right| + C_1.
+	\]
+	
+	Esta solución se basa en el reconocimiento de que la integral representa la función inversa del seno hiperbólico, o más directamente, se puede verificar mediante derivación o sustitución trigonométrica hiperbólica.
+	
+	Para verificarlo, se puede usar la sustitución hiperbólica:  
+	Sea \( y = \sinh(t) \), entonces \( dy = \cosh(t)\,dt \) y
+	\[
+	\sqrt{1+y^2} = \sqrt{1+\sinh^2(t)} = \cosh(t).
+	\]
+	
+	Sustituyendo:
+	\[
+	\int \frac{dy}{\sqrt{1+y^2}} = \int \frac{\cosh(t)\,dt}{\cosh(t)} = \int dt = t + C
+	\]
+	
+	Dado que \( t = \sinh^{-1}(y) \), y se sabe que
+	\[
+	\sinh^{-1}(y) = \ln \left| y + \sqrt{1+y^2} \right|,
+	\]
+	se obtiene el resultado:
+	\[
+	\int \frac{dy}{\sqrt{1+y^2}} = \ln \left| y + \sqrt{1+y^2} \right| + C
+	\]
+	
+	\textbf{Paso 4.} Igualar e exponentiar:
+	
+	\[
+	\ln\big(y + \sqrt{1+y^2}\big) = -\ln|x| + C
+	\quad \Rightarrow \quad
+	y+\sqrt{1+y^2} = \frac{K}{x}.
+	\]
+	
+	Multiplicando ambos lados por \(x\) y renombrando la constante:
+	
+	\[
+	\boxed{\,x\bigl(y+\sqrt{1+y^{2}}\bigr)=K\,}.
+	\]
+	
 \end{multicols}
 
 \end{document}
